@@ -9,20 +9,20 @@
     "summary": "I currently work at Intel as a Software Developer. I am also a current student at IIIT-B pursuing PG Diploma in Machine Learning and AI (Dec 2019 - Dec 2020).",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "postalCode": "560103",
+      "city": "Bengaluru",
+      "countryCode": "INDIA",
+      "region": "Karnataka"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
+        "username": "akhilsn",
         "url": "http://github.com/changeme"
       },
       {
         "network": "linkedin",
-        "username": "akhilshukla",
+        "username": "akhilnshukla",
         "url": "http://linkedin.com/in/akhilnshukla"
       }
     ]
