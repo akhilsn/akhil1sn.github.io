@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/cotton-square.png
-title: Cotton
+title: 4. Cotton
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-01
