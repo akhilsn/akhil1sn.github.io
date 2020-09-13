@@ -26,7 +26,7 @@ Also to investigate finding with Basemap visualization.<br>
 
 <img class="ui medium right floated rounded image" src="../images/operatorwiseindiamap.png"><br>
 Notice how RJIO dominates the subscribers across India, but a little scarce in the middle (MP, Rajasthan).
-<br><br>
+<br><br><br>
 <img class="ui medium right floated rounded image" src="../images/ratingwiseindiamap.png"><br>
 Notice the purple points in majority, indicating Rating5 reported by most of the mobile subscribers.
 This shows that the Voice Quality via services across different Networks offered by different Operators is very good.
