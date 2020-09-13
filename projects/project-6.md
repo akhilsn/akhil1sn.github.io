@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/textClassification.jpg
+image: images/textClasssification.jpg
 title: BBC articles fulltext and category
 permalink: projects/bbcnewsclassification
 # All dates must be YYYY-MM-DD format!
