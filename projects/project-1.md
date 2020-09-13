@@ -25,11 +25,11 @@ With Home electronic industry making a major shift and moving towards building a
 
 Say you want to develop a cool feature in the smart-TV that can recognize five different gestures performed by the user which will help users control the TV without using a remote. This project does exactly that. I make 5 Gesture Movements - Thumbs up/down, swipe left/right, stop, and train deep neural network models to learn to identify the gestures.<br><br>
 The gestures are continuously monitored by the webcam mounted on the TV. Each gesture corresponds to a specific command:<br>
-Thumbs up:  Increase the volume<br>
-Thumbs down: Decrease the volume<br>
-Left swipe: 'Jump' backwards 10 seconds<br>
-Right swipe: 'Jump' forward 10 seconds<br>
-Stop: Pause the movie<br><br>
+**Thumbs up:**  Increase the volume<br>
+**Thumbs down:** Decrease the volume<br>
+**Left swipe:** 'Jump' backwards 10 seconds<br>
+**Right swipe:** 'Jump' forward 10 seconds<br>
+**Stop:** Pause the movie<br><br>
 
 ### Dataset:
 The data consists of a few hundred videos categorized into one of the five classes. Each video (typically 2-3 seconds long) is divided into a sequence of 30 frames(images).<br> These videos have been recorded by various people performing one of the five gestures in front of a webcam - similar to what the smart TV will use. Each video is a sequence of 30 frames (or images). The frames are uploaded on the google drive link : **https://drive.google.com/uc?id=1ehyrYBQ5rbQQe6yL4XbLWe3FMvuVUGiL**
