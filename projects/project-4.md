@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/trai.jpg
-title: 4. India: Voice Call Quality Experience
+title: India Voice Call Quality Experience
 permalink: projects/indiavoicequality
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-21
