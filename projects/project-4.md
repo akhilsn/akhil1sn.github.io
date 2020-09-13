@@ -1,60 +1,32 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: 4. Cotton
-permalink: projects/cotton
+image: images/trai.jpg
+title: 4. India: Voice Call Quality Experience
+permalink: projects/indiavoicequality
 # All dates must be YYYY-MM-DD format!
-date: 2020-01-01
+date: 2020-01-21
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Pandas
+  - Seaborn
+  - Basemap
+summary: Exploratory Data Analysis of Indian Voice Call service using data obtained from TRAI MyCall App
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+The dataset provides Customers Feedback Captured using TRAI MyCAll App. Customers rates their experience about telecom voice call quality in real time and help TRAI gather customer experience data along with Network data. The dataset includes feedback for the months September - November 2019
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+It is a good Dataset to do some EDA, especially if you wanna begin experimenting with Basemap.
 
-To give you a flavor of the game, here is an excerpt from one run:
+Dataset along with the code can be found at Source: <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/Voice%20Call%20Quality%20Experience%20EDA"><i class="large github icon "></i>akhilsn/IndiaVoiceQuality</a>
+<br><br>
 
-<hr>
+We try to find which network service, mobile generation does India's mobile subscriber use the most. We also note distribution of network across these months.<br>
+Questions like possibility of user churn out of one operator during the three months of data is possible, mobile subscriber base statewise in india, Operator ratings to determine most popular or most successful operator among people etc,
+Also to investigate finding with Basemap visualization.<br>
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+<img class="ui medium right floated rounded image" src="../images/operatorwiseindiamap.png"><br>
+Notice how RJIO dominates the subscribers across India, but a little scarce in the middle (MP, Rajasthan).
+<br><br>
+<img class="ui medium right floated rounded image" src="../images/ratingwiseindiamap.png"><br>
+Notice the purple points in majority, indicating Rating5 reported by most of the mobile subscribers.
+This shows that the Voice Quality via services across different Networks offered by different Operators is very good.
