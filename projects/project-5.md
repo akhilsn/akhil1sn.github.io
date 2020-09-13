@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/AppleMobilityTrends.png
+image: images/apple-mobility-trends-data-covid19.jpg
 title: APPLE Global Mobility trends (Jan to Apr 2020)
 permalink: projects/applemobility
 # All dates must be YYYY-MM-DD format!
@@ -30,8 +30,7 @@ Lets look at mobility trends at Spain and Detroit USA. <br><br>
 <img class="ui medium right floated rounded image" src="../images/SpainAppleMobility.png"><br>
 
 Spain is one among the top worst hit countries by COVID 19. As of 21st April there are 204,178 cases in Spain, and more than 20000 deaths.
-    
-    
+
 >Note how the mobilty was pretty descent until a strict lockdown measures was taken by the 
 Spanish Government. Note the dramatic drop around 12th March. This seems to be very much inline with the fact that Spanish Government imposed a nation wide
 lockdown on 14th March.
@@ -43,7 +42,7 @@ Detroit is best known as the center of the U.S. automobile industry, and the "Bi
 > Observe there is a major spike in transit mobility around 22nd Feb. Also throughout February, there was a strong transit mobility. I suppose this high transit mobility must have been due to people taking public transport to move back to their homes (as a panick action) due to sudden strong US government measures to fight COVID 19.
 
 > Other than transit mobility, the mobility via driving or walking are not much and start dying down March onwards.
-<br>br>
+<br><br>
 
 ### Limitation: 
 The dataset comes from Apple's product mobility, and hence the inferences would represent only fraction of the people who use Apple products. This becomes even more limiting in making inferences for regions, where Apple products do not have enough reach - this will result in very less data from that region.
