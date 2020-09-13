@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Akhil Shukla",
-    "label": "Work at INTEL & PG diploma Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
+    "label": "Works at INTEL & PG diploma Student",
+    "picture": "https://techfolios.github.io/template/images/akhil.png",
     "email": "akhilnshukla@yahoo.in",
     "phone": "9787113077",
     "website": "https://github.com/akhilsn",
@@ -24,6 +24,11 @@
         "network": "linkedin",
         "username": "akhilnshukla",
         "url": "http://linkedin.com/in/akhilnshukla"
+      },
+      {
+        "network": "kaggle",
+        "username": "akhilnshukla",
+        "url": "https://www.kaggle.com/akhilnshukla"
       }
     ]
   },
