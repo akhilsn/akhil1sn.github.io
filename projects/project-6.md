@@ -29,29 +29,29 @@ Source: <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/BBC%20Te
 Finally I have used some random 'out of the dataset' headlines to test whether the model correctly classifies them into expected label class or not. And the results are extremely impressive!!
 <br><br>Below I have used some random news headlines from the web, and using the model built done the respective news classification.<br>
 
-<span style="color:green">**Headline: FIR against Delhi Minorities Commission chairman for inflammatory content on social media**</span><br><br>
+<span style="color:green">Headline: **FIR against Delhi Minorities Commission chairman for inflammatory content on social media**</span><br><br>
 <span style="color:blue">**POLITICS**</span>
 <br><br>
 
-<span style="color:green">**Headline: Need to restart economy but with caution: Yogi Adityanath at E-Agenda CNN News**</span><br><br>
+<span style="color:green">Headline: **Need to restart economy but with caution: Yogi Adityanath at E-Agenda CNN News**</span><br><br>
 <span style="color:blue">**BUSINESS**</span>
 <br><br>
 
-<span style="color:green">**Headline: 2 doctors attacked in Andhra Pradesh Vijayawada**</span><br><br>
+<span style="color:green">Headline: **2 doctors attacked in Andhra Pradesh Vijayawada**</span><br><br>
 <span style="color:blue">**POLITICS**</span>
 <br><br>
 
-<span style="color:green">**Headline: If I bat for an hour, you’ll see a big one: How Dravid spelt doom for Pak**</span><br><br>
+<span style="color:green">Headline: **If I bat for an hour, you’ll see a big one: How Dravid spelt doom for Pak**</span><br><br>
 <span style="color:blue">**SPORTS**</span>
 <br><br>
 
-<span style="color:green">**Headline: Benedict Cumberbatch returns as Doctor Strange in new Spider-Man film**</span><br><br>
+<span style="color:green">Headline: **Benedict Cumberbatch returns as Doctor Strange in new Spider-Man film**</span><br><br>
 <span style="color:blue">**ENTERTAINMENT**</span>
 <br><br>
 
-<span style="color:green">**Headline: Portugal Train To Face France In The Nations League**</span><br><br>
+<span style="color:green">Headline: **Portugal Train To Face France In The Nations League**</span><br><br>
 <span style="color:blue">**SPORTS**</span>
 <br><br>
 
-<span style="color:green">**Headline: Taiwanese Apple Contract Manufacturers To Invest 900 Million USD In India: Report**</span><br><br>
+<span style="color:green">Headline: **Taiwanese Apple Contract Manufacturers To Invest 900 Million USD In India: Report**</span><br><br>
 <span style="color:blue">**BUSINESS**</span>
