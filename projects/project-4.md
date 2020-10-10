@@ -15,14 +15,13 @@ summary: Exploratory Data Analysis of Indian Voice Call service using data obtai
 
 The dataset provides Customers Feedback Captured using TRAI MyCAll App. Customers rates their experience about telecom voice call quality in real time and help TRAI gather customer experience data along with Network data. The dataset includes feedback for the months September - November 2019
 
-It is a good Dataset to do some EDA, especially if you wanna begin experimenting with Basemap.
+With the data provided, I have performed the Exploratory data analysis, and made use of Basemap to visualize the Voice Quality data over the Graphical Maps of India.
 
-Dataset along with the code can be found at Source: <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/Voice%20Call%20Quality%20Experience%20EDA"><i class="large github icon "></i>akhilsn/IndiaVoiceQuality</a>
+Dataset along with the code can be found at: <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/Voice%20Call%20Quality%20Experience%20EDA"><i class="large github icon "></i>akhilsn/IndiaVoiceQuality</a>
 <br><br>
 
-We try to find which network service, mobile generation does India's mobile subscriber use the most. We also note distribution of network across these months.<br>
-Questions like possibility of user churn out of one operator during the three months of data is possible, mobile subscriber base statewise in india, Operator ratings to determine most popular or most successful operator among people etc,
-Also to investigate finding with Basemap visualization.<br>
+Here, I find which network service, mobile generation does India's mobile subscribers use the most. I have also noted distribution of network across these months.<br>
+Questions like possibility of user churn out of one operator during the three months of data is possible, mobile subscriber base statewise in india, Operator ratings to determine most popular or most successful operator among people etc<br>
 
 <img class="ui medium right floated rounded image" src="../images/operatorwiseindiamap.png">
 <img class="ui medium right floated rounded image" src="../images/ratingwiseindiamap.png"><br>
