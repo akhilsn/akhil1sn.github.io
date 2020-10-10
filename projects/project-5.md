@@ -18,7 +18,7 @@ COVID 19 cases began surfacing around January, and increasing every day. This da
 Due to COVID 19 spreading all across the world, there have been strict measures taken by the Governments of various Countries. Due to this people's mobility has also reduced across regions.<br>
 The given dataset is an Apple provided mobility report (across transportation types such as `walking`, `driving`, `transit`.)
 
->***How the mobility of people carrying the Apple mobile phones has changed, provides us an opportunity to study the human mobility behaviors across the regions.***
+>*How the mobility of people carrying the Apple mobile phones has changed, provides us an opportunity to study the human mobility behaviors across the regions.*
     
 In this project, I have performed some Exploratory Data Analysis on this data to understand how the nations/regions followed some strict lockdown measures imposed by the governement, and how was the distribution of decreased mobility across different transport types. I have plotted the population mobility (population using Apple product) to understand whether lockdown restrictions were abided by people of those regions.<br>
 
@@ -26,11 +26,11 @@ In this project, I have performed some Exploratory Data Analysis on this data to
 
 Source: <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/Apple%20Mobility%20Trends"><i class="large github icon"></i>akhilsn/Apple Mobility Trends across world</a><br><br>
 
-Lets look at mobility trends at Spain and Detroit USA. <br><br>
+Lets look at mobility trends at ***Spain*** and ***Detroit (USA)***. <br><br>
 
 <img class="ui medium right floated rounded image" src="../images/SpainAppleMobility.png"><br>
 
-Spain is one among the top worst hit countries by COVID 19. As of 21st April there are 204,178 cases in Spain, and more than 20000 deaths.
+***Spain*** is one among the top worst hit countries by COVID 19. As of 21st April there are 204,178 cases in Spain, and more than 20000 deaths.
 
 >Note how the mobilty was pretty descent until a strict lockdown measures was taken by the 
 Spanish Government. Note the dramatic drop around 12th March. This seems to be very much inline with the fact that Spanish Government imposed a nation wide
@@ -38,7 +38,7 @@ lockdown on 14th March.
 <br><br>
 
 <img class="ui medium right floated rounded image" src="../images/DetroitAppleMobility.png"><br>
-Detroit is best known as the center of the U.S. automobile industry, and the "Big Three" auto manufacturers General Motors, Ford, and Fiat Chrysler are all headquartered in Metro Detroit. This industry requires many labors who come from far off places.
+***Detroit*** is best known as the center of the U.S. automobile industry, and the "Big Three" auto manufacturers General Motors, Ford, and Fiat Chrysler are all headquartered in Metro Detroit. This industry requires many labors who come from far off places.
 
 > Observe there is a major spike in transit mobility around 22nd Feb. Also throughout February, there was a strong transit mobility. I suppose this high transit mobility must have been due to people taking public transport to move back to their homes (as a panick action) due to sudden strong US government measures to fight COVID 19.
 
