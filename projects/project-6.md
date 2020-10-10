@@ -30,4 +30,4 @@ Source: <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/BBC%20Te
 
 <br><br>Below I have pasted some random news headlines from the web.<br>
 
-<img class="ui medium right floated rounded image" src="../images/BBCTextClass3.png"><br>
+<img class="ui medium right floated rounded image" src="../images/BBCTextClass4.png"><br>
