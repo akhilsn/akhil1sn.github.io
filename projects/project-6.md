@@ -9,7 +9,7 @@ date: 2020-04-12
 labels:
   - Naive Bayes
   - Logistic Regression
-summary: BBC News Headlines Classification Model
+summary: Built a News Headline Classification model (Tech, Business, Sports, Entertainment, Politics) using Naive Bayes and Logistic Regression modeling performing well on the performance metrics.
 ---
 
 Here I have used the BBC headline news text, labeled in 5 categories, i.e., 'Tech', 'Sports', 'Business', 'Entertainment', and 'Politics', and then trained models with Logistic Regression and Naive Bayes.
@@ -23,11 +23,9 @@ Dataset contains labeled BBC articles with fulltext (Title, body) and category o
 > For Logistic Regression model, the model test accuracy is 98.35%<br>
 > For Naive Bayes model, the model test accuracy is a little higher at 98.65%<br><br>
 
-Finally I have used some random 'out of the dataset' headlines to test whether the model correctly classifies them into expected label class or not. And the results are extremely impressive!!<br><br>
+Finally I have used some random 'out of the dataset' headlines to test whether the model correctly classifies them into expected label class or not. And the results are extremely impressive!!
+<br><br>Below I have pasted some random news headlines from the web.<br>
+<img class="ui medium right floated rounded image" src="../images/BBCTextClass4.png"><br>
 
 For the complete code please refer
 Source: <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/BBC%20Text%20News%20Classification"><i class="large github icon "></i>akhilsn/BBC Text News Classification</a>
-
-<br><br>Below I have pasted some random news headlines from the web.<br>
-
-<img class="ui medium right floated rounded image" src="../images/BBCTextClass4.png"><br>
