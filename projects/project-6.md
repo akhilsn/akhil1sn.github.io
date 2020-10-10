@@ -27,31 +27,31 @@ For the complete code please refer
 Source: <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/BBC%20Text%20News%20Classification"><i class="large github icon "></i>akhilsn/BBC Text News Classification</a>
 
 Finally I have used some random 'out of the dataset' headlines to test whether the model correctly classifies them into expected label class or not. And the results are extremely impressive!!
-<br><br>Below I have used some random news headlines from the web, and using the model vuilt done the respective news classification.<br>
+<br><br>Below I have used some random news headlines from the web, and using the model built done the respective news classification.<br>
 
 ***Headline: FIR against Delhi Minorities Commission chairman for inflammatory content on social media***<br><br>
-POLITICS
-<br><br><br><br>
+**POLITICS**
+<br><br>
 
 ***Headline: Need to restart economy but with caution: Yogi Adityanath at E-Agenda AajTak***<br><br>
-BUSINESS
-<br><br><br><br>
+**BUSINESS**
+<br><br>
 
 ***Headline: 2 doctors attacked in Andhra Pradesh Vijayawada***<br><br>
-POLITICS
-<br><br><br><br>
+**POLITICS**
+<br><br>
 
 ***Headline: If I bat for an hour, you’ll see a big one: How Dravid spelt doom for Pak***<br><br>
-SPORTS
-<br><br><br><br>
+**SPORTS**
+<br><br>
 
 ***Headline: Benedict Cumberbatch returns as Doctor Strange in new Spider-Man film***<br><br>
-ENTERTAINMENT
-<br><br><br><br>
+**ENTERTAINMENT**
+<br><br>
 
 ***Headline: Portugal Train To Face France In The Nations League***<br><br>
-SPORTS
-<br><br><br><br>
+**SPORTS**
+<br><br>
 
 ***Headline: Taiwanese Apple Contract Manufacturers To Invest 900 Million USD In India: Report***<br><br>
-BUSINESS
+**BUSINESS**
