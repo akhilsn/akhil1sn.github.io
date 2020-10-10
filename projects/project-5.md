@@ -18,10 +18,11 @@ COVID 19 cases began surfacing around January, and increasing every day. This da
 Due to COVID 19 spreading all across the world, there have been strict measures taken by the Governments of various Countries. Due to this people's mobility has also reduced across regions.<br>
 The given dataset is an Apple provided mobility report (across transportation types such as `walking`, `driving`, `transit`.)
 
->How the mobility of people carrying the Apple mobile phones has changed, provides us an opportunity to study the human mobility behaviors across the regions.
+>***How the mobility of people carrying the Apple mobile phones has changed, provides us an opportunity to study the human mobility behaviors across the regions.***
     
 In this project, I have performed some Exploratory Data Analysis on this data to understand how the nations/regions followed some strict lockdown measures imposed by the governement, and how was the distribution of decreased mobility across different transport types. I have plotted the population mobility (population using Apple product) to understand whether lockdown restrictions were abided by people of those regions.<br>
-If one is interested, the code can be run on any world region to visualize the mobility trends.
+
+**If one is interested, the code can be run on any world region to visualize the mobility trends.**
 
 Source: <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/Apple%20Mobility%20Trends"><i class="large github icon"></i>akhilsn/Apple Mobility Trends across world</a><br><br>
 
