@@ -29,5 +29,5 @@ Finally I try using some random out of the dataset headlines to test whether our
 
 For the complete code please refer
 Source: <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/BBC%20Text%20News%20Classification"><i class="large github icon "></i>akhilsn/BBC Text News Classification</a>
-<br><br>
-<img class="ui medium right floated rounded image" src="../images/BBCTextClass1.png"><br>
+
+<img class="ui medium right floated rounded image" src="../images/BBCTextClass2.png"><br>
