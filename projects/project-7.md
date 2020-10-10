@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/spellcheck.jpg
-title: 1. Spelling Corrector Application
+title: Spelling Corrector Application
 permalink: projects/spellingcorrectorapp
 # All dates must be YYYY-MM-DD format!
 date: 2020-06-15
