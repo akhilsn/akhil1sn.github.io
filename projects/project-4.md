@@ -20,13 +20,13 @@ With the data provided, I have performed the Exploratory data analysis, and made
 Dataset along with the code can be found at: <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/Voice%20Call%20Quality%20Experience%20EDA"><i class="large github icon "></i>akhilsn/IndiaVoiceQuality</a>
 <br><br>
 
-Here, I find which network service, mobile generation does India's mobile subscribers use the most. I have also noted distribution of network across these months.<br>
-Questions like possibility of user churn out of one operator during the three months of data is possible, mobile subscriber base statewise in india, Operator ratings to determine most popular or most successful operator among people etc<br>
+***Here, I find which network service, mobile generation does India's mobile subscribers use the most. I have also noted distribution of network across these months.<br>
+Questions like possibility of user churn out of one operator during the three months of data is possible, mobile subscriber base statewise in india, Operator ratings to determine most popular or most successful operator among people etc.***<br>
 
 <img class="ui medium right floated rounded image" src="../images/operatorwiseindiamap.png">
 <img class="ui medium right floated rounded image" src="../images/ratingwiseindiamap.png"><br>
 
-<br><br><br><br><br><br><br><br><br><br>><br><br><br><br>
-Fig1: Notice how RJIO dominates the subscribers across India, but a little scarce in the middle (MP, Rajasthan).<br><br>
-Fig2: Notice the purple points in majority, indicating Rating5 reported by most of the mobile subscribers.
-This shows that the Voice Quality via services across different Networks offered by different Operators is very good.
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+*Fig1: Notice how RJIO dominates the subscribers across India, but a little scarce in the middle (MP, Rajasthan).*<br><br>
+*Fig2: Notice the purple points in majority, indicating Rating5 reported by most of the mobile subscribers.*
+<br>**This shows that the Voice Quality via services across different Networks offered by different Operators is very good.**
