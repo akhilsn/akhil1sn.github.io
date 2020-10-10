@@ -41,7 +41,8 @@ I experimented with different values of Batch size, and found the maximum workin
 I have tried multiple models based on 3D Convolution, CNN + LSTM and Transfer Learning models.
 <br><br>
 The highest validation accuracy reached with Transfer Learning models, having 95% accuracy on both Validation and Training data.<br>
-Below table shows the detailed performance for 17 models that I tried for different model architectures, and noted down their metrics (accuracy).<br><br>
+<br><br>
+**Below table shows the detailed performance for 17 models that I tried for different model architectures, and noted down their metrics (accuracy).**<br><br>
 
 Source: <a href="https://github.com/akhilsn/DLNeuralNetwork/tree/master/GestureRecognition"><i class="large github icon"></i>akhilsn/Gesture Recognition</a><br><br>
 
