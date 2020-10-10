@@ -23,11 +23,11 @@ Dataset contains labeled BBC articles with fulltext (Title, body) and category o
 > For Logistic Regression model, the model test accuracy is 98.35%<br>
 > For Naive Bayes model, the model test accuracy is a little higher at 98.65%<br><br>
 
-Finally I have used some random 'out of the dataset' headlines to test whether the model correctly classifies them into expected label class or not. And the results are extremely impressive!!
-
-<br><br>Below I have pasted some random news headlines from the web.<br>
+Finally I have used some random 'out of the dataset' headlines to test whether the model correctly classifies them into expected label class or not. And the results are extremely impressive!!<br><br>
 
 For the complete code please refer
 Source: <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/BBC%20Text%20News%20Classification"><i class="large github icon "></i>akhilsn/BBC Text News Classification</a>
+
+<br><br>Below I have pasted some random news headlines from the web.<br>
 
 <img class="ui medium right floated rounded image" src="../images/BBCTextClass3.png"><br>
