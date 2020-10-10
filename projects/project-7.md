@@ -10,7 +10,7 @@ labels:
   - Natural Language Processing
   - Lexical Processing
   - Edit Distances
-summary: An advanced Lexical Processing based application - Spelling Corrector using Laventein Minimum Edit Distance technique. A ready to use app for spelling correction on english text data.
+summary: An advanced Lexical Processing based application - Spelling Corrector using Lavenstein Minimum Edit Distance technique. A ready to use app for spelling correction on english text data.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
