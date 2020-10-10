@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/GestureRecognition.png
-title: GestureRecognition
+title: Gesture Recognition using Deep Learning
 permalink: projects/gesture
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-14
