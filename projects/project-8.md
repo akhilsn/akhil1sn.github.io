@@ -17,13 +17,12 @@ summary: EDA on the Uber City Rides in New York City for July '14. My objective 
 
 ### Problem Statement:
 
-<img class="ui large right floated rounded image" src="../images/MapsWithDropOffs.png"><br>
-<img class="ui large right floated rounded image" src="../images/HeatMapInCity.png"><br>
-<img class="ui large right floated rounded image" src="../images/HeatmapsDropOffsOutsideCity.png"><br>
-<img class="ui large right floated rounded image" src="../images/HeatmapAroundPark.png"><br>
-<img class="ui large right floated rounded image" src="../images/HourlyTrends.png"><br>
-<img class="ui large right floated rounded image" src="../images/TotalTripsAsPercentage.png"><br>
-<img class="ui large right floated rounded image" src="../images/T-Statistics.png"><br>
+<div class="ui large rounded images">
+  <img class="ui image" src="../images/MapsWithDropOffs.png"><br>
+  <img class="ui image" src="../images/HeatMapInCity.png"><br>
+  <img class="ui image" src="../images/HeatmapsDropOffsOutsideCity.png"><br>
+  <img class="ui image" src="../images/HeatmapAroundPark.png"><br>
+</div>
 
 
 The dataset used is from Uber Ride DropOffs around New York during July 2014. It is a huge dataset with ~0.8 million rides recorded.
@@ -33,6 +32,12 @@ With geopy and Folium, I have analyzed how within a certain radius, are uber rid
 during which part of the day. This is called the seasonlity of traffic or rider demands.
 
 Also, using heatmaps, I have tried to show how some areas around Park have less drop offs (semi circle heatmaps).
-Finally, I have finished my assessment of whether or not we see hourly effects by using a t-test to see if each hour has a statistically different proportion of rides for weekends vs. weekdays
+Finally, I have finished my assessment of whether or not we see hourly effects by using a t-test to see if each hour has a statistically different proportion of rides for weekends vs. weekdays.
+
+<div class="ui large rounded images">
+  <img class="ui image" src="../images/HourlyTrends.png"><br>
+  <img class="ui image" src="../images/TotalTripsAsPercentage.png"><br>
+  <img class="ui image" src="../images/T-Statistics.png"><br>
+</div>
 
 The complete code to this project can be found here. <a href="https://github.com/akhilsn/Kaggle-Projects/tree/master/Uber%20City%20Rides%20New%20York"><i class="large github icon"></i>akhilsn/Uber Rides Drop Off Data Analysis</a><br><br>
