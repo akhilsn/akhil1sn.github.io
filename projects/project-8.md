@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/UberNewYork.jpg
 title: Uber City Rides Exploratory Data Analysis (July 2014)
-permalink: projects/applemobility
+permalink: projects/uberrides
 # All dates must be YYYY-MM-DD format!
 date: 2020-06-29
 labels:
