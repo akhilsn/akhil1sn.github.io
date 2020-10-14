@@ -23,7 +23,9 @@ which carries out the overall conversation
 <br>
 The first layer of a conversational system, NLU, interprets the free text provided by the user. It basically takes an unstructured text phrase or sentence, understands what the user probably intends to say, extracts entities from the text phrase or sentence, and converts it into structured data.
 <br>
-<img class="ui large right floated rounded image" src="../images/IntentCmdPrompt.png">
+<div class="ui large rounded images">
+  <img class="ui image" src="../images/IntentCmdPrompt.png">
+</div>
 <br>
 Training: A higher number of and variance in training examples improves the performance of the NLU layer (i.e., intent and entity recognition).
 Each training example further can be understood as having three components, namely, text, intent and entities:<br>
@@ -38,7 +40,9 @@ The second aspect of the conversational framework is the Dialogue Management Mod
 <br>
 The dialogue management model accomplishes the task of learning to take the correct action based on the stage of the conversation. The responsible Rasa layer for Dialogue Management is the Rasa Core. 'Stories' are the training data for Rasa Core’s dialogue management system. Rasa Core uses a variant of Recurrent Neural Networks (RNNs), which are 'sequence models', called LSTMs (Long Short-Term Memory), to learn dialogue flow.
 <br>
-<img class="ui large right floated rounded image" src="../images/Flowchart.png">
+<div class="ui large rounded images">
+  <img class="ui large right floated rounded image" src="../images/Flowchart.png">
+</div>
 <br>
 In the implementation of this chatbot, I use three memory slots, for Location, Cuisine, and Budget. And for querying a ready to use Restaurant database, I have used the Zomato API. After adding basic stories for the bot to learn from, I have used RASA Interactive to train for further stories. The RASA Interactive learning is a great tool by Rasa that allows you to provide feedback on errors, thereby correcting and guiding the bot whenever it goes wrong.
 <br>
