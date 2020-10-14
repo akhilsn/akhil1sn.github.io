@@ -21,7 +21,7 @@ The dataset used is from Uber Ride DropOffs around New York during July 2014. It
 I have tried to use the data to anlayze and visualize the different patterns of Uber Drop Offs in and around New York. 
 I have specifically used geopy (used for calculating distance between two points) and Folium for the map visualizations.
 <br>
-<div class="ui medium rounded images">
+<div class="ui small rounded images">
   <img class="ui image" src="../images/MapsWithDropOffs.png"><br>
   <img class="ui image" src="../images/HeatMapInCity.png"><br>
   <img class="ui image" src="../images/HeatmapsDropOffsOutsideCity.png"><br>
@@ -34,7 +34,7 @@ during which part of the day. This is called the seasonlity of traffic or rider 
 Also, using heatmaps, I have tried to show how some areas around Park have less drop offs (semi circle heatmaps).
 Finally, I have finished my assessment of whether or not we see hourly effects by using a t-test to see if each hour has a statistically different proportion of rides for weekends vs. weekdays.
 <br>
-<div class="ui large rounded images">
+<div class="ui small rounded images">
   <img class="ui image" src="../images/HourlyTrends.png"><br>
   <img class="ui image" src="../images/TotalTripsAsPercentage.png"><br>
   <img class="ui image" src="../images/T-Statistics.png"><br>
