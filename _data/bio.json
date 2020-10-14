@@ -44,10 +44,10 @@
       ]
     },
     {
-      "name": "Artificial Intelligence",
+      "name": "Wireless Communication",
       "keywords": [
-        "Deep Learning",
-        "Reinforcement Learning"
+        "Physical Layer Design",
+        "Resource Allocation"
       ]
     }
   ],
@@ -68,9 +68,8 @@
       "level": "",
       "keywords": [
         "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Linux",
+        "Git/GitHub"
       ]
     }
   ],
@@ -112,7 +111,7 @@
       "summary": "Development of ML based Web APIs",
       "highlights": [
         "Responsible for the web api development for listing memories used by several teams in Intel",
-        "API is based on a Deep Learning Neural Network Optimizer that optimizes Power, Performance, Area parameters, for a given user input."
+        "This Web API is based on a Deep Learning Neural Network Optimizer that optimizes Power, Performance, Area parameters, for a given user input."
       ]
     },
     {
@@ -121,10 +120,22 @@
       "website": "https://www.intel.in",
       "startDate": "2017-08-28",
       "endDate": "2020-03-02",
-      "summary": "Modem Layer-1 Firmware Development for XMM 7560 (4G) and Polaris (5G) intel modems",
+      "summary": "Modem Layer-1 Firmware Development for 4G/5G Intel modems",
       "highlights": [
         "Responsible for development of features to support cell search, measurement",
         "Code Maintenance and debugging for frequent defects and issues."
+      ]
+    },
+    {
+      "company": "Intel Corporation",
+      "position": "System Validation Intern",
+      "website": "https://www.intel.in",
+      "startDate": "2016-12-19",
+      "endDate": "2017-07-07",
+      "summary": "Conformance Testing and Protocol Stacking (CT-PS) Intern",
+      "highlights": [
+        "Responsible for testing Call Processing and Call Features. Learnt the GERAN, UTRAN (2G, 3G) network architectures.",
+        "Call processing flow and validation of Network Simulator driven feature tests."
       ]
     }
   ],
@@ -137,8 +148,7 @@
       "endDate": "Present",
       "summary": "Active Volunteer for YRC VIT branch",
       "highlights": [
-        "Spreading awareness via Campaigns organized in campus",
-        "Member of social network to connect blood donors with the receiver party"
+        "Spreading awareness via Campaigns organized in campus"
       ]
     },
     {
@@ -149,7 +159,7 @@
       "endDate": "2016-12-31",
       "summary": "Org. IEEE PES tech symposiums, projects",
       "highlights": [
-        "Member, IEEE Student Branch, 2015-Present",
+        "Member, IEEE Student Branch, 2015-2018",
       ]
     }
   ],
