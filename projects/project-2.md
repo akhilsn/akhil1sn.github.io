@@ -14,8 +14,6 @@ labels:
 summary: A conversational restaurant search chatbot that provides a list of restaurants based on customer's location, cuisine, budget etc choices.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
-
 In this project, I have built a domain-specific chatbot, specifically, a restaurant search chatbot. The bot is able to 'talk' to users in English, and is able to help them search for restaurants offering multiple cuisines, suiting different budgets, etc., in several cities. For building this conversational chatbot, I have used an open-source machine learning (ML) framework called RASA.
 <br>
 Conversation, or dialogue, is a fundamental aspect of human language, and arguably the most interesting challenge in building truly intelligent NLP systems. Any conversational system has primarily two components:
