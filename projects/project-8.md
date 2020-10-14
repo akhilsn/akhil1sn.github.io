@@ -35,6 +35,7 @@ Also, using heatmaps, I have tried to show how some areas around Park have less 
 Finally, I have finished my assessment of whether or not we see hourly effects by using a t-test to see if each hour has a statistically different proportion of rides for weekends vs. weekdays.
 <br>
 <div class="ui medium rounded images">
+  <img class="ui image" src="../images/Seasonality.png">
   <img class="ui image" src="../images/HourlyTrends.png">
   <img class="ui image" src="../images/TotalTripsAsPercentage.png">
   <img class="ui image" src="../images/T-Statistics.png"><br>
