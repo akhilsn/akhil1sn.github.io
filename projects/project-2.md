@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/chatbot-restaurant.jpg
-title: 1. Vacay
+title: Conversational Chatbot
 permalink: projects/chatbot
 # All dates must be YYYY-MM-DD format!
 date: 2020-08-14
