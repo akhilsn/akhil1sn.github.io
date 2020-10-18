@@ -9,8 +9,8 @@ layout: default
 
   <h3>Essays</h3>
   <ul>
-    {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
-    {% for page in essay_pages %}
+    {% assign btech_project_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
+    {% for page in btech_project_pages %}
       <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}
   </ul>
