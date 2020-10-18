@@ -6,10 +6,14 @@ title: Thesis
 date: 2017-05-26
 labels:
   - 4G Cellular System
-  - Scheduler
+  - QoS Provisioning
+  - Packet Scheduler
+  - MATLAB
 ---
 <br>
-Here in this project, I will share my thesis project titled ***QoS provisioning Downlink Resource Management in 4G Cellular System***. I will share the objective, motivation, findings, and learnings. This thesis is based on a paper implementation of https://ieeexplore.ieee.org/document/7289059.
+Here in this project, I will share my thesis project titled ***QoS provisioning Downlink Resource Management in 4G Cellular System***. I will share the objective, motivation, findings, and learnings. 
+<br>
+This thesis is based on a paper implementation of https://ieeexplore.ieee.org/document/7289059.
 <br>
 **To find the thesis, please refer to this google drive link, https://drive.google.com/drive/folders/1lCz_kDJBJvwXam7UtPtK3eN1BWmBu2VC?usp=sharing**
 
@@ -122,25 +126,13 @@ Please refer below to find the observations on running Matlab simulations,
 <br>
 <div class="ui large rounded images">
   <img class="ui image" src="../images/avg_packet_delay.png">
-</div>
-<br>
-<br>
-<div class="ui large rounded images">
   <img class="ui image" src="../images/avg_packet_dropping_ratio.png">
 </div>
 <br>
 <br>
 <div class="ui large rounded images">
   <img class="ui image" src="../images/Video_traffic_flow_TP.png">
-</div>
-<br>
-<br>
-<div class="ui large rounded images">
   <img class="ui image" src="../images/CBR_traffic_flow.png">
-</div>
-<br>
-<br>
-<div class="ui large rounded images">
   <img class="ui image" src="../images/VoIP_traffic_flow.png">
 </div>
 <br>
