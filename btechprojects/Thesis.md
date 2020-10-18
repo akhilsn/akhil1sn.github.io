@@ -89,31 +89,32 @@ LTE System Toolbox provides standard-compliant functions and apps for the design
 ### DESIGN APPROACH AND DETAILS:
 
 The general structure for downlink physical channel is described as follows:
--	scrambling of coded bits in each of the codewords to be transmitted on a physical channel
--	modulation of scrambled bits to generate complex-valued modulation symbols
--	mapping of the complex-valued modulation symbols onto one or several transmission layers
--	precoding of the complex-valued modulation symbols on each layer for transmission on the antenna ports
--	mapping of complex-valued modulation symbols for each antenna port to resource elements
--	generation of complex-valued time-domain OFDM signal for each antenna port
+- scrambling of coded bits in each of the codewords to be transmitted on a physical channel
+- modulation of scrambled bits to generate complex-valued modulation symbols
+- mapping of the complex-valued modulation symbols onto one or several transmission layers
+- precoding of the complex-valued modulation symbols on each layer for transmission on the antenna ports
+- mapping of complex-valued modulation symbols for each antenna port to resource elements
+- generation of complex-valued time-domain OFDM signal for each antenna port
 <br><br>
+
 In the system architecture of the LTE cellular Network for QoS provisioning, first, an end system (eNodeB or UE) uses a traffic specification procedure so as to specify the source traffic characteristics and the desired QoS. Then, the network employs QoS routing to find paths between source and destinations that have sufficient resources to support the requested QoS. At each network node, call admission control regulates the traffic volume by deciding whether a connection request should be accepted or rejected, based on the requested QoS, the channel quality and buffer length of the packet data to be sent. 
 <br>
 Based on the system architecture, the proposed mechanism is built upon following levels of resource allocation as given below:
 
-	Preliminary Resource Allocation
+#### Preliminary Resource Allocation
 
 Each UE triggers its present channel quality to the eNodeB. The eNodeB first computes the number of resource blocks that can be allocated to each UE. The UEs then use the received resource blocks to distribute them to its various traffic flows. The major objective here is to increase the overall throughput. And thus MT scheduler mechanism is employed as it aims at maximizing throughput. MT greedily allocates resource blocks to those traffic flows that have currently the best channel quality and hence maximizes throughput. These operations are repeatedly carried on until either 1) All the UEs have been served with sufficient number of resource blocks. 2) All the resource blocks have been occupied by the UEs but there are still UEs unserved. 
 In the first case, all the UEs have been served, which indicates that the eNodeB has sufficient downlink resource blocks for satisfying the traffic demands of the UEs, and thus in such a case OPS does not need to execute the remaining two stages. 
 <br>
 
-	Reallocation of disposable resource
+#### Reallocation of disposable resource
 
 The eNodeB then searches for the resource blocks that have been used and are available to be occupied again by the traffic channels. These can be the residual resource blocks in the system or a subset of resource blocks allocated to traffic flows in the previous stage. The eNodeB regularly scans the traffic flow channels to find residual resource blocks. The traffic channels with better channel quality will have high data rate, and will thus dispose the occupied resource blocks at the earliest. These are the traffic channels chosen first during the scanning procedure.
 In stage 1, the allocation of the resource blocks is done on a rough basis, because of which there arises a problem. The traffic channels having lesser QCI tend to take more number of resources which starves those traffic channels having greater value of QCI. For example, an application such as VoIP traffic flow having QCI value of 1, makes the eNodeB to provide it the maximum number of resource blocks, which results in starvation of the other traffic channels associated to various UE applications. 
 <br>
 **In the proposed Optimized Packet Scheduler mechanism, we set a threshold α ϵ N resource blocks for each traffic channel that limits them to acquire resource blocks after a certain set value. Also the value of α should be greater than 1, so that every traffic channel can get at least one resource block.** 
 
-	Reallocation of resource blocks
+#### Reallocation of resource blocks
 
 The aforementioned disposable resource blocks are finally reallocated to traffic flows. These resource blocks may not be sufficient to fulfil the demands of all the traffic flows. So the eNodeB first allocates the disposable resource blocks to the traffic flows which will encounter packet dropping soon. After following this allocation strategy, if there still remain disposable resource blocks, they are reallocated to traffic flows whose demands are not satisfied yet.
 
@@ -125,14 +126,10 @@ To model the shadowing fading effect, the log-normal distribution with **zero me
 Please refer below to find the observations on running Matlab simulations,
 <br>
 <div class="ui large rounded images">
-  <img class="ui image" src="../images/avg_packet_delay.png">
-  <img class="ui image" src="../images/avg_packet_dropping_ratio.png">
-</div>
-<br>
-<br>
-<div class="ui large rounded images">
   <img class="ui image" src="../images/Video_traffic_flow_TP.png">
   <img class="ui image" src="../images/CBR_traffic_flow.png">
   <img class="ui image" src="../images/VoIP_traffic_flow.png">
+  <img class="ui image" src="../images/avg_packet_delay.png">
+  <img class="ui image" src="../images/avg_packet_dropping_ratio.png">
 </div>
 <br>
