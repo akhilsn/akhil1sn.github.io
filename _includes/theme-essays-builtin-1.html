@@ -1,7 +1,7 @@
 <div style="padding-top: 20px" class="ui container ">
 
   <div class="ui stackable centered four cards">
-    {% assign btech_project_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
+    {% assign btech_project_pages = site.pages | where: "type", "btechprojects" | sort: "date" | reverse %}
       {% for page in btech_project_pages %}
         {% unless page.draft %}
           {% include essay-card.html page=page %}
