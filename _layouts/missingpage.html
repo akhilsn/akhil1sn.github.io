@@ -9,7 +9,7 @@ layout: default
 
   <h3>Btech Projects</h3>
   <ul>
-    {% assign btech_project_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
+    {% assign btech_project_pages = site.pages | where: "type", "btechprojects" | sort: "date" | reverse %}
     {% for page in btech_project_pages %}
       <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}
