@@ -1,5 +1,5 @@
 <!-- Home page design with card including image -->
-{% assign btech_project_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
+{% assign btech_project_pages = site.pages | where: "type", "btechprojects"  | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
 {% assign num_btech_projects = btech_project_pages.size %}
 {% assign num_projects = project_pages.size %}
