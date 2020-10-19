@@ -1,7 +1,7 @@
 ---
 layout: btechprojects
 type: btechprojects
-title: Thesis
+title: Thesis on QoS provisioning DL Resource Management 4G Cellular systems
 # All dates must be YYYY-MM-DD format!
 date: 2017-05-26
 labels:
@@ -11,7 +11,7 @@ labels:
   - MATLAB
 ---
 <br>
-Here in this project, I will share my thesis project titled ***QoS provisioning Downlink Resource Management in 4G Cellular System***. I will share the objective, motivation, findings, and learnings. 
+Here in this project, I share my thesis project briefly with the objective, motivation, findings, and learnings stated.
 <br>
 This thesis is based on a paper implementation of https://ieeexplore.ieee.org/document/7289059.
 <br>
