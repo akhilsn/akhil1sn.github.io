@@ -11,8 +11,10 @@ labels:
 ---
 <br>
 This project reports the miniaturization of a planar Wilkinson power divider by capacitive loading of the quarter wave transmission lines employed in conventional Wilkinson power dividers. Reduction of the transmission line segments from λ/4 to between λ/5 and λ/12 are reported here. The input and output lines at the three ports and the lines comprising the divider itself are coplanar waveguide (CPW) and asymmetric coplanar stripline (ACPS), respectively. The 10 GHz power dividers are fabricated on high resistivity silicon (HRS) and alumina wafers.
-
+<br>
 ***These miniaturized dividers are 74% smaller than conventional Wilkinson power dividers, and have a return loss better than +30 dB and an insertion loss less than 0.55 dB Design equations.***
+<br>
+The paper that was studied and implemented for this project can be found at https://ieeexplore.ieee.org/document/975717
 
 ### Introduction :
 
