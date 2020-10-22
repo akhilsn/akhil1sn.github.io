@@ -10,6 +10,7 @@ labels:
   - Optisystem
 ---
 
+### Summary
 The core component of a global communication network has been the use of optical fiber networks, which is a telecommunications network with optical fiber as the primary transmission medium, designed in such a way that it makes full use of the unique attributes of optical fibers. To overcome the challenge to deal with the rapid growth of the Internet, Optical Submarine Networks provide a fasr reliable communication. 
 <br>
 ***In this project we are going to stimulate and maximize the distance for a section of submarine optical network between two repeaters or between two amplifiers for which the least error or BER is observed.***
