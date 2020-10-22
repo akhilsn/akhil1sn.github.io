@@ -119,6 +119,6 @@ The final design achieves reliable communication over a distance of 840 km with 
 Figure below shows the BER values obtained for different frequencies at receiver side after the communication.
 <br>
 <div class="ui large rounded images">
-  <img class="ui image" src="../images/TWavelenth_vs_BER.png">
+  <img class="ui image" src="../images/Wavelenth_vs_BER.png">
 </div>
 <br>
