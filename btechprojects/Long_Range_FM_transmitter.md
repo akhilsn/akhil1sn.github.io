@@ -5,9 +5,10 @@ title: Long Range FM Transmitter
 # All dates must be YYYY-MM-DD format!
 date: 2016-04-15
 labels:
+  - Hardaware
   - FM Transmission
-  - Higher Bandwidth
-  - Optisystem
+  - Antenna
+  - Multisim
 ---
 
 Frequency modulation (FM) is a type of the angle modulation. This modulation technique is used for commercial radio broadcasting. Due to the rapid development of IC, most of the FM transmitters are constructed and designed using modulator IC chips. 
@@ -87,7 +88,7 @@ We used song from a mp3 player as an input audio signal (at the mic) and using a
 ### Helical Antenna :
 A conducting wire that is wound in the form of a screw thread along with a ground plane (a metallic conductor of specific shape and dimensions) is referred as helical antenna.
 Geometrically a helix can be characterized as a wire having N turns of diameter D and a spacing or pitch of S between each turn. The total length of the antenna is then L = NS.
-While total length of the wire used to wind the coil is given as Ln = NL0 = NÖ(S2+C2). Where C = pD is the circumference.
+While total length of the wire used to wind the coil is given as Ln = NL0 = N*sqrt((S*S+C*C)). Where C = (pi)*D is the circumference.
 
 <div class="ui large rounded images">
   <img class="ui image" src="../images/Helium_antenna.png">
@@ -95,12 +96,12 @@ While total length of the wire used to wind the coil is given as Ln = NL0 = NÖ(
 <br>
 
 Here in our design we have used an antenna having 
--	N =8 turns; 					
--	Spacing S=0.4cm;
--	L =NS =3.2cm; 
--	C =pD =p(1.0cm)=3.14cm;  
--	Ln = NL0 = NÖ(0.42+3.142)=25.33cm;
--	Input Impedence =   =140(0.0314/3.3334) =1.319   ;
+-	N = 8 turns; 					
+-	Spacing S = 0.4cm;
+-	L = NS = 3.2cm; 
+-	C =(pi)*D = (pi)*(1.0cm)=3.14cm;  
+-	Ln = NL0 = 25.33cm;
+-	Input Impedence(R) =140(0.0314/3.3334) =1.319;
 
 ### APPLICATION
 
