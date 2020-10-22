@@ -1,7 +1,7 @@
 ---
 layout: btechprojects
 type: btechprojects
-title: 80Gbps Optical Submarine Network
+title: Long Range FM Transmitter
 # All dates must be YYYY-MM-DD format!
 date: 2016-04-15
 labels:
