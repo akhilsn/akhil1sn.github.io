@@ -67,5 +67,5 @@ Since running on entire test dataset would take more than 6-7hrs, I have tested 
 
 All three approaches have provided 3% - 6% of improvement in the accuracies over the Vanilla model.
 <br>
-Approach 3 is based on a rule-based technique and has been the best so far providing almost 6% improvement over the vanilla model.
+Approach 3 is based on a rule-based technique and has been the best so far providing almost 6% improvement over the vanilla viterbi model.
 <br>
