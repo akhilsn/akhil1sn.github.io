@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/pos_tagging.jpg
 title: Viterbi Algorithm Accuracy improvement for unknown words in corpus
-permalink: projects/spellingcorrectorapp
+permalink: projects/viterbi
 # All dates must be YYYY-MM-DD format!
 date: 2020-07-14
 labels:
