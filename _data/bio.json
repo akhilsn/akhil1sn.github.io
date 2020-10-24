@@ -143,9 +143,9 @@
       "summary": "Modem Layer-1 Firmware Development for 4G/5G Intel modems",
       "highlights": [
         "Developed and owned UE Physical layer features for 4g/5g RAT, working primarily on power management, cell search/measurement, resource allocation management for master and slave RATs.",
-        "Responsible for code maintenance and defect debugging for self-owned features."
-        "Performed and evaluated Profiling for Code Optimization and MIPS Reduction."
-        "Planning and discussions with customers, global L1CC teams to evaluate design approach towards feature development."
+        "Responsible for code maintenance and defect debugging for self-owned features.",
+        "Performed and evaluated Profiling for Code Optimization and MIPS Reduction.",
+        "Planning and discussions with customers, global L1CC teams to evaluate design approach towards feature development.",
         "Additionally, developed projects with Quality Initiatives team to help streamline defect assignment to teams."
       ]
     },
@@ -198,7 +198,7 @@
       "title": "Hindustan Pratibha Samman Medal 2011",
       "date": "2011",
       "awarder": "Hindustan Media Ventures Ltd.",
-      "summary": "Awarded Hindustan Pratibha Samman Gold medal for being the school topper in Class X. A special mention in the Hindustan newspaper too for outstanding performance.."
+      "summary": "Awarded Hindustan Pratibha Samman Gold medal for being the school topper in Class X. A special mention in the Hindustan newspaper too for outstanding performance."
     }
   ],
   "references": [
