@@ -78,6 +78,23 @@
   ],
   "education": [
     {
+      "institution": "International Institute of Information Technology, Bengaluru",
+      "area": "Machine Learning and Artificial Intelligence (Dec, 2020), cgpa: 3.78/4.0",
+      "studyType": "Post Graduation Diploma",
+      "startDate": "2019-12-01",
+      "endDate": "2020-12-28",
+      "gpa": "3.8",
+      "courses": [
+        "Statistics Essential",
+        "Machine Learning - I",
+        "Machine Learning - II",
+        "Natural Language Processing",
+        "Neural Networks",
+        "Reinforcement Learning",
+        "Capstone Deployment Project"
+      ]
+    },
+    {
       "institution": "Vellore Institute of Technology, Vellore",
       "area": "Electronics and Communication Engineering (May, 2017), cgpa: 9.07/10.0",
       "studyType": "B.Tech.",
