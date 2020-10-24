@@ -1,7 +1,7 @@
 ---
 layout: btechprojects
 type: btechprojects
-title: Thesis on QoS provisioning DL Resource Management 4G Cellular systems
+title: Thesis on QoS provisioning DL Resource Management 4G Cellular systems (Supervised by- Dr. Neelakandan Rajamohan)
 # All dates must be YYYY-MM-DD format!
 date: 2017-05-26
 labels:
