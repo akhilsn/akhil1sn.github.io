@@ -11,8 +11,9 @@ labels:
   - Multisim
 ---
 <br><br>
-Frequency modulation (FM) is a type of the angle modulation. This modulation technique is used for commercial radio broadcasting. Due to the rapid development of IC, most of the FM transmitters are constructed and designed using modulator IC chips. 
-This project aims to construct a simple radio transmitter for transmission up to few metres. It is basically an FM modulator whose signal can be received on a normal FM radio.
+**Frequency modulation (FM)** is a type of the angle modulation. This modulation technique is used for commercial radio broadcasting. Due to the rapid development of IC, most of the FM transmitters are constructed and designed using modulator IC chips. 
+<br>
+<br>This project aims to construct a simple radio transmitter for transmission up to few metres. It is basically an FM modulator whose signal can be received on a normal FM radio.
 - A condenser microphone is used for speaking. 
 - The output of the condenser microphone is used to modulate the carrier frequency. 
 - This frequency produces an electromagnetic wave, which can be detected by a nearby radio receiver, and one can hear one’s own voice in that radio.
@@ -26,29 +27,29 @@ This project aims to construct a simple radio transmitter for transmission up to
 
 ### Circuit Components:
 
-- Resistors       1000Ω, 1kΩ
-- Capacitors      1000µF, 6.8pF
-- IC              LM555
+- Resistors       *1000Ω, 1kΩ*
+- Capacitors      *1000µF, 6.8pF*
+- IC              *LM555*
 - Condenser microphone
 - 9V battery
 - Copper wires, 
 - Breadboard, etc.
 
-Design:
+### Design:
 
 IC 555 is used in astable multi-vibrator mode.
 Since for a FM transmitter the carrier frequency range should be between 87.5 to 108 MHz.
 
 From datasheet of IC 555 Timer, 
-
-The frequency of oscillation is,
+<br>
+The frequency of oscillation is,<br>
   **f = 1/T = 1.44/ ((Ra + Rb)*C)**
 
-The Duty Cycle is,
+The Duty Cycle is,<br>
   **D = Ra/ (Ra + 2*Rb)**
-
-We have designed our circuit such that the Duty cycle comes out to be 50% (because that results in maximum deviation in both cycles i.e Ton and Toff).
-Using above two formula, we get Frequency of oscillation as 100.8 MHz.
+<br><br>
+**We have designed our circuit such that the Duty cycle comes out to be 50% (because that results in maximum deviation in both cycles i.e Ton and Toff).
+Using above two formula, we get Frequency of oscillation as 100.8 MHz.**
 
 ### Design to Improve Range to around 10m:
 
@@ -60,17 +61,17 @@ Using above two formula, we get Frequency of oscillation as 100.8 MHz.
 ### Components Required
 
 -	Power supply 9V
-- Resistors  4.7k Ω, 470Ω
+- 	Resistors  4.7k Ω, 470Ω
 -	Capacitors 0.001µF, 4.7µF, 0.022µF
 -	Trimmer capacitor 10-100pF
 -	Inductor 0.1µH (26 turns, 0.25 inch diameter, 10 inch length using 18 guage copper wire)
 -	Transistor 2N3904
 -	Condenser Mic
 -	Antenna (Copper wire of 20 cm long and 24 gauge)
-
-Frequency of Oscillation = 1/((2π)sqrt(LC))
-					                = 91.88 MHz
-
+<br><br>
+**Frequency of Oscillation** = 1/((2π)sqrt(LC))
+			     = 91.88 MHz
+			 
 ### How is it Better?
 
 The above circuit arrangement enables us to obtain stable oscillations because it makes use of the LC tank network which is an improvisation upon IC 555 timer which generates only simple square wave signals.
