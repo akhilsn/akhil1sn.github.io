@@ -5,16 +5,16 @@ image: images/pos_tagging.jpg
 title: Viterbi Algorithm Accuracy improvement for unknown words in corpus
 permalink: projects/viterbi
 # All dates must be YYYY-MM-DD format!
-date: 2020-07-14
+date: 2020-07-23
 labels:
   - Natural Language Processing
   - Hidden Markovian Model
   - Viterbi
-summary: A project based on improving accuracy for PoS tagging on a daya corpus using Vanilla and modified versions of Viterbi algorithm.
+summary: A project based on improving accuracy for POS tagging on a daya corpus using Vanilla and modified versions of Viterbi algorithm.
 ---
 
 ### Problem:
-The **Vanilla Viterbi** turns out to be slightly inefficient while trying to determine the POS tags for the unknown words in a dataset. This is because, for unknown words, the emission probabilities for all candidate tags are 0, so the algorithm arbitrarily chooses (the first) tag. In this project I have proposed three approaches by modifying the Viterbi algorithm in order to get better accuracies in terms of determining correct POS tags for unknown words in the test data.
+The **Vanilla Viterbi** turns out to be slightly inefficient while trying to determine the POS tags for the unknown words in a dataset. This is because, for unknown words, the emission probabilities for all candidate tags are 0, so the algorithm arbitrarily chooses (the first) tag. In this project I have proposed three approaches by modifying the Viterbi algorithm in order to get better accuracies in terms of determining correct POS tags for unknown words in the test data.<br>
 The **best approach** is able to obtain **~95.4% accuracy**, which is significantly better than the **Vanilla Viterbi** having **~90.6%** accuracy. 
 <br>
 For this project, I have used the Treebank dataset of NLTK with the 'universal' tagset. The Universal tagset of NLTK comprises only 12 coarse tag classes as follows: Verb, Noun, Pronouns, Adjectives, Adverbs, Adpositions, Conjunctions, Determiners, Cardinal Numbers, Particles, Other/ Foreign words, Punctuations.
@@ -39,17 +39,17 @@ I have used three approches here to solve the arbitrary PoS tagging done by the 
 
 - ***Approach1: Find out the most frequent tag in the corpus, and substitute the Unknown words with 'NOUN' tags.***
 <br>
-Below figure shows the different tag distribution over the words in corpus,<br>
-
+Below figure shows the different tag distribution over the words in corpus,
+<br>
 <div class="ui large rounded images">
   <img class="ui image" src="../images/distribution_of_diff_tags_of_words_in_corpus.png">
 </div>
 <br><br>
 
 - ***Approach2: Adjust emission probability with a small non-zero value instead of zero, and assign POS tag based on the max. of product of the adjusted emission prob. and transition prob.***
-
+<br>
 - ***Approach3: Use rule based technique to assign tags based on some rules such as tagging words ending with 'ing', 'ed', containing numbers etc.***
-
+<br>
 ### Observations:
 
 Accuracies achieved by different Viterbi algorithm versions,
