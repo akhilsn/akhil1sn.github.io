@@ -37,7 +37,7 @@ This is also why it is called a **greedy algorithm** - it assigns the tag that i
 ### Problem Solving:
 I have used three approches here to solve the arbitrary PoS tagging done by the Vanilla Viterbi algorithm on unknown words:
 
-- ***Approach1: Find out the most frequent tag in the corpus, and substitute the Unknown words with 'NOUN' tags.***
+- ***Approach 1: Find out the most frequent tag in the corpus, and substitute the Unknown words with 'NOUN' tags.***
 <br>
 Below figure shows the different tag distribution over the words in corpus,
 <br>
@@ -46,18 +46,18 @@ Below figure shows the different tag distribution over the words in corpus,
 </div>
 <br><br>
 
-- ***Approach2: Adjust emission probability with a small non-zero value instead of zero, and assign POS tag based on the max. of product of the adjusted emission prob. and transition prob.***
-<br>
-- ***Approach3: Use rule based technique to assign tags based on some rules such as tagging words ending with 'ing', 'ed', containing numbers etc.***
+- ***Approach 2: Adjust emission probability with a small non-zero value instead of zero, and assign POS tag based on the max. of product of the adjusted emission prob. and transition prob.***
+<br><br>
+- ***Approach 3: Use rule based technique to assign tags based on some rules such as tagging words ending with 'ing', 'ed', containing numbers etc.***
 <br>
 ### Observations:
 
 Accuracies achieved by different Viterbi algorithm versions,
 <br><br>
 - **Vanilla Viterbi: 90.6%**
-- **Approach1: 93.7%**
-- **Approach2: 93.8%**
-- **Approach3: 95.4%**
+- **Approach 1: 93.7%**
+- **Approach 2: 93.8%**
+- **Approach 3: 95.4%**
 
 Since running on entire test dataset would take more than 6-7hrs, I have tested on a few sample sentences of the test dataset. If tested on the complete dataset, the accuracy is expected to be slightly higher.
 
@@ -65,5 +65,5 @@ Since running on entire test dataset would take more than 6-7hrs, I have tested 
 
 All three approaches have provided 3% - 6% of improvement in the accuracies over the Vanilla model.
 <br>
-Approach3 is based on a rule-based technique and has been the best so far providing almost 6% improvement over the vanilla model.
+Approach 3 is based on a rule-based technique and has been the best so far providing almost 6% improvement over the vanilla model.
 <br>
