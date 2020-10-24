@@ -10,10 +10,12 @@ labels:
   - Antenna
   - Multisim
 ---
-
+<br>
+**Supervised by: Prof. Noor V Mohammed**
+<br>
 Frequency modulation (FM) is a type of the angle modulation. This modulation technique is used for commercial radio broadcasting. Due to the rapid development of IC, most of the FM transmitters are constructed and designed using modulator IC chips. 
 This project aims to construct a simple radio transmitter for transmission up to few metres. It is basically an FM modulator whose signal can be received on a normal FM radio.
--	A condenser microphone is used for speaking. 
+- A condenser microphone is used for speaking. 
 - The output of the condenser microphone is used to modulate the carrier frequency. 
 - This frequency produces an electromagnetic wave, which can be detected by a nearby radio receiver, and one can hear one’s own voice in that radio.
 
