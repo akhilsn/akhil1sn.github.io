@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/pos_tagging.jpg
+image: images/python-nlp-parts-of-speech-tagging.jpg
 title: Viterbi Algorithm Accuracy improvement for unknown words in corpus
 permalink: projects/viterbi
 # All dates must be YYYY-MM-DD format!
