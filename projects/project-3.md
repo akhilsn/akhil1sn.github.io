@@ -10,7 +10,7 @@ labels:
   - Natural Language Processing
   - Hidden Markovian Model
   - Viterbi
-summary: A project based on improving accuracy for POS tagging on a daya corpus using Vanilla and modified versions of Viterbi algorithm.
+summary: A project based on improving accuracy for POS tagging on a data corpus using Vanilla and modified versions of Viterbi algorithm.
 ---
 
 ### Problem:
@@ -18,6 +18,8 @@ The **Vanilla Viterbi** turns out to be slightly inefficient while trying to det
 The **best approach** is able to obtain **~95.4% accuracy**, which is significantly better than the **Vanilla Viterbi** having **~90.6%** accuracy. 
 <br>
 For this project, I have used the Treebank dataset of NLTK with the 'universal' tagset. The Universal tagset of NLTK comprises only 12 coarse tag classes as follows: Verb, Noun, Pronouns, Adjectives, Adverbs, Adpositions, Conjunctions, Determiners, Cardinal Numbers, Particles, Other/ Foreign words, Punctuations.
+<br><br>
+The project along with the code can be found at my github <a href="https://github.com/akhilsn/Natural_Language_Processing/tree/main/Improving%20Viterbi%20Algo.%20for%20determining%20the%20POS%20tags%20of%20unknown%20words"><i class="large github icon"></i>akhilsn/Viterbi Algo Improvement</a><br><br>
 <br>
 
 ### Introduction to Viterbi:
