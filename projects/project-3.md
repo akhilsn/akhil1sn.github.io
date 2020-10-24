@@ -37,14 +37,16 @@ This is also why it is called a **greedy algorithm** - it assigns the tag that i
 ### Problem Solving:
 I have used three approches here to solve the arbitrary PoS tagging done by the Vanilla Viterbi algorithm on unknown words:
 
-- ***Approach 1: Find out the most frequent tag in the corpus, and substitute the Unknown words with 'NOUN' tags.***
+- ***Approach 1: Find out the most frequent tag in the corpus, and substitute the Unknown words with that most frequent tag tags.***
 <br>
 Below figure shows the different tag distribution over the words in corpus,
 <br>
 <div class="ui large rounded images">
   <img class="ui image" src="../images/distribution_of_diff_tags_of_words_in_corpus.png">
 </div>
-<br><br>
+<br>
+From the figure above, the most frequent tag in our corpus is 'Noun', so we'll substitute the unknown words with Noun tag for Approach 1.
+<br>
 
 - ***Approach 2: Adjust emission probability with a small non-zero value instead of zero, and assign POS tag based on the max. of product of the adjusted emission prob. and transition prob.***
 <br><br>
