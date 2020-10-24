@@ -1,7 +1,7 @@
 ---
 layout: btechprojects
 type: btechprojects
-title: 80Gbps Optical Submarine Network
+title: 80Gbps Optical Submarine Network (Supervised by- Dr. Prabu Krishnan)
 # All dates must be YYYY-MM-DD format!
 date: 2016-09-20
 labels:
