@@ -13,8 +13,6 @@ labels:
 summary: An advanced Lexical Processing based application - Spelling Corrector using Lavenstein Minimum Edit Distance technique. A ready to use app for spelling correction on english text data.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
-
 In Natural Language Processing, some of the basic lexical processing techniques that we often use are removing stop words, tokenisation, stemming and lemmatization. These preprocessing steps are applicable in almost every text analytics application.
 Even after going through all these preprocessing steps, a lot of noise could still be present in the data. For example, spelling errors which happen by mistake as well as by choice (informal words such as 'lol', 'awsum' etc.). Misspellings need to be corrected in order to stem or lemmatize efficiently. The problem of misspellings is so common these days, especially in text data from social media, that it makes working with text extremely difficult, if not dealt with.
 To handle such situations, here I have built a Spell Correction application where all the misspelt words will be canonicalised to the base form, which would be the correct spelling of that word, and use Minimum edit distance technique. 
