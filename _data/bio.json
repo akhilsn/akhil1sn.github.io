@@ -114,7 +114,7 @@
       "summary": "Development of ML based Web APIs",
       "highlights": [
         "Responsible for the web api development for listing memories used by several teams in Intel",
-        "This Web API is based on a Deep Learning Neural Network Optimizer that optimizes Power, Performance, Area parameters, for a given user input."
+        "This Web API is based on a Deep Learning Neural Network Optimizer that optimizes PPA parameters- Power, Performance, Area parameters for a given user input."
       ]
     },
     {
