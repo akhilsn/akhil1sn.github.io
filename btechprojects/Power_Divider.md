@@ -1,7 +1,7 @@
 ---
 layout: btechprojects
 type: btechprojects
-title: Miniaturised Wilkinson Power Divider with Capacitive Loading
+title: Miniaturised Wilkinson Power Divider with Capacitive Loading (Supervised by- Dr. Prabu K)
 # All dates must be YYYY-MM-DD format!
 date: 2016-07-26
 labels:
