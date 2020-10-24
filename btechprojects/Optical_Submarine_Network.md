@@ -39,17 +39,16 @@ The above is usually accomplished by employing Dense Wavelength Division Multipl
 <br>
 
 ### System parameters:
-| TOTAL CAPACITY        	| 80Gbps                                            	|
-|-----------------------	|---------------------------------------------------	|
-| BIT RATEPER CHANNEL   	| 10Gbps                                            	|
-| MODULATION SCHEME     	| NRZ                                               	|
-| SIGNAL WAVELENGTH     	| 1552.42 to 1558.12nm                              	|
-| CHANNEL SPACING       	| 100Ghz or 0.8nm                                   	|
-| MAXIMUM SYSTEM LENGTH 	| 840Km                                             	|
-| REPEATER SPAN         	| 56Km                                              	|
-| BIT RATE ERROR        	| Less than 10^(-9)[Without error control coding]\| 	|
-| OPTICAL FIBER         	| Corning submarine SMFL                            	|
-| INPUT POWER           	| 1dBm                                              	|
+  **TOTAL CAPACITY**: 80Gbps
+  **BIT RATEPER CHANNEL**: 10Gbps
+  **MODULATION SCHEME**: NRZ
+  **SIGNAL WAVELENGTH**: 1552.42 to 1558.12nm
+  **CHANNEL SPACING**: 100Ghz or 0.8nm
+  **MAXIMUM SYSTEM LENGTH**: 840Km
+  **REPEATER SPAN**: 56Km
+  **BIT RATE ERROR**: Less than 10^(-9)[Without error control coding]
+  **OPTICAL FIBER**: Corning submarine SMFL
+  **INPUT POWER**: 1dBm
 
 Wilkinson power dividers are indispensable components of microwave amplifier and antenna distribution circuits, however conventional power dividers are quite large, especially below X-Band where the quarter-wave transmission lines can be several millimeters long.
 <br><br>         
