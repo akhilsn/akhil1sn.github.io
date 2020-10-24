@@ -125,8 +125,11 @@
       "endDate": "2020-03-02",
       "summary": "Modem Layer-1 Firmware Development for 4G/5G Intel modems",
       "highlights": [
-        "Responsible for development of features to support cell search, measurement",
-        "Code Maintenance and debugging for frequent defects and issues."
+        "Developed and owned UE Physical layer features for 4g/5g RAT, working primarily on power management, cell search/measurement, resource allocation management for master and slave RATs.",
+        "Responsible for code maintenance and defect debugging for self-owned features."
+        "Performed and evaluated Profiling for Code Optimization and MIPS Reduction."
+        "Planning and discussions with customers, global L1CC teams to evaluate design approach towards feature development."
+        "Additionally, developed projects with Quality Initiatives team to help streamline defect assignment to teams."
       ]
     },
     {
@@ -137,8 +140,9 @@
       "endDate": "2017-07-07",
       "summary": "Conformance Testing and Protocol Stacking (CT-PS) Intern",
       "highlights": [
-        "Responsible for testing Call Processing and Call Features. Learnt the GERAN, UTRAN (2G, 3G) network architectures.",
-        "Call processing flow and validation of Network Simulator driven feature tests."
+        "Planned and executed Conformance Tests on Anite/R&S network simulator test setups.",
+        "Tested features like call registration, call processing, supplementary services, Inter-RAT handovers etc.",
+        "Enriched knowledge on technologies like 2g, 3g, their protocol stack architectures and GSM, UMTS call flows."
       ]
     }
   ],
@@ -148,7 +152,7 @@
       "website": "https://www.linkedin.com/company/youth-red-cross-vit/",
       "position": "Volunteer",
       "startDate": "2014-01-01",
-      "endDate": "2018-01-01",
+      "endDate": "2017-01-01",
       "summary": "Active Volunteer for YRC VIT branch",
       "highlights": [
         "Spreading awareness via Campaigns organized in campus"
@@ -159,10 +163,10 @@
       "website": "https://www.ieee-pes.org/",
       "position": "Core Committee member",
       "startDate": "2015-01-01",
-      "endDate": "2018-01-01",
+      "endDate": "2017-01-01",
       "summary": "Org. IEEE PES tech symposiums, projects",
       "highlights": [
-        "Member, IEEE Student Branch, 2015-2018",
+        "Member, IEEE Student Branch, 2015-2017",
       ]
     }
   ],
