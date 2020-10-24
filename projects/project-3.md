@@ -47,7 +47,7 @@ Below figure shows the different tag distribution over the words in corpus,
   <img class="ui image" src="../images/distribution_of_diff_tags_of_words_in_corpus.png">
 </div>
 <br>
-From the figure above, the most frequent tag in our corpus is 'Noun', so we'll substitute the unknown words with Noun tag for Approach 1.
+From the figure above, the most frequent tag in our corpus is 'Noun', so we'll force the unknown words tags as Noun tag for Approach 1.
 <br>
 
 - ***Approach 2: Adjust emission probability with a small non-zero value instead of zero, and assign POS tag based on the max. of product of the adjusted emission prob. and transition prob.***
