@@ -1,7 +1,7 @@
 ---
 layout: btechprojects
 type: btechprojects
-title: Long Range FM Transmitter (Supervised by- Prof. Noor V Mohammed)
+title: Long Range FM Transmitter (Supervised by- Dr. Noor V Mohammed)
 # All dates must be YYYY-MM-DD format!
 date: 2016-04-15
 labels:
