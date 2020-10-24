@@ -6,13 +6,13 @@
     "email": "akhilnshukla@yahoo.in",
     "phone": "9787113077",
     "website": "https://github.com/akhilsn",
-    "summary": "I currently work at Intel as a Software Developer. I have completed my Bachelors in Electronics and Communications Engg. (2013 - 2017), and am also currently pursuing a PGD in Machine Learning and Artificial Intelligence from IIIT-B(Dec 2019 - Dec 2020).",
+    "summary": "Software Developer at INTEL. Have completed Bachelors in Electronics and Communications Engg. (2013 - 2017), and presently pursuing a PGD in Machine Learning and Artificial Intelligence from IIIT-B(Dec 2019 - Dec 2020).",
     "location": {
       "address": "",
-      "postalCode": "560103",
-      "city": "Bengaluru",
+      "postalCode": "226017",
+      "city": "Lucknow",
       "countryCode": "INDIA",
-      "region": "Karnataka"
+      "region": "Uttar Pradesh"
     },
     "profiles": [
       {
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "name": "Wireless Communication",
+      "name": "Wireless Communication and Networks",
       "keywords": [
         "Physical Layer Design",
         "Resource Allocation"
@@ -57,19 +57,22 @@
       "level": "",
       "keywords": [
         "Python",
-        "C",
-        "C++",
+        "C/ C++",
+        "Machine Learning",
+        "NLP",
+        "Reinforcement Learning",
+        "REST Framework",
         "Django",
-        "Tensorflow"
+        "Agile-Scrum"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "Ubuntu",
-        "Linux",
-        "Git/GitHub"
+        "Ubuntu/ Linux",
+        "Git",
+        "Docker"
       ]
     }
   ],
