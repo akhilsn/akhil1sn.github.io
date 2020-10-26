@@ -87,7 +87,7 @@ The hyperparameters in case of 1D CNN are:
 - Stride (s)
 - Pooling size (m)
 - Number of filters (k)
-<br>
+
 ### Performance:
 
 The Mean Squared error on the test data compared with predicted values is 0.8%, which is very good. To get a better understanding, on unnormalizing the predicted values, the mean absolute error comes out to be 87.12 while the standard deviation of the test dataset is ~139. This shows the effective performance of our 1D CNN+RNN model.
