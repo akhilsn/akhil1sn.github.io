@@ -24,9 +24,9 @@ As an example, consider there are twenty news headlines that run on each day (wh
 <br>
 However, we can use 1D CNN as they are really faster and significantly less expensive than RNN. In a 1D CNN architecture, the filter can move only in one direction instead of moving in both two directions (x and y axis) as in 2D convolution.
 
-<br><br>
+<br>
 In this project, I have used a stock market price index data to implement the 1D CNN-RNN architecture. Generally speaking, a stock market index, along with a multitude of other factors, also gets affected by the news headlines that run daily on television and newspapers. Highly negative news impacts the stock market negatively and positive news impacts the stock market positively. Here, I have modeled the relationship between the news and the stock market price of an index.
-<br><br>
+<br>
  **My assumption in modelling the stock price in this exercise is that news headlines that run on a particular day affect the opening stock price of an index the very next morning.** The model architecture is basically built with following two steps,
  
  - Extracting textual features using 1-dimensional CNN
@@ -45,7 +45,7 @@ The value that the model should predict is the opening price of the stock market
 
  ### General flow of a Text related Business Problem:
  
- <div class="ui large rounded images">
+<div class="ui large rounded images">
   <img class="ui image" src="../images/textmining.png">
 </div>
 <br><br>
@@ -57,6 +57,10 @@ Now, there could be two ways to model the price index based on the news: we coul
 ***Predicting the rise or fall seems more logical in this case since we're trying to analyse the effect of the news on the price index.***
 <br><br>
 
+**Word Embeddings:**
+<br>
+Here, I have used pre-trained GloVe word embedding. I did not use stemming/lemmatisation as a text preprocessing step because, for most of the common words, vector representation for a word variations may already be present in the embedding space. <br>For example, vector representation for variations for the word 'learn' such as 'learns', 'learning' etc. is already present. So, it makes more sense to use words in its actual context if we can use it.  
+<br><br>
 **Preparing Sequences:**
 <br>
 - Change the words present in the headlines into integers,
@@ -66,7 +70,7 @@ For each day, there are multiple headlines and each headline has a variable leng
 <br>
 - For a headline having less than 16 words, append it as it. For a headline that is longer than 16 words, truncate it from the right and append the first 16 words only.
 - Combine all the headlines into a single headline and pad it to a length of 200 words in case it is shorter than 200 words. In case it is longer than 200 words, truncate it from the right side.
-
+<br><br>
 **Hyper Parameters:**
 <br>
 The hyperparameters in case of 1D CNN are:
@@ -76,9 +80,9 @@ The hyperparameters in case of 1D CNN are:
 - Stride (s)
 - Pooling size (m)
 - Number of filters (k)
-
+<br>
 ### Performance:
 
 The Mean Squared error on the test data compared with predicted values is 0.8%, which is very good. To get a better understanding, on unnormalizing the predicted values, the mean absolute error comes out to be 87.12 while the standard deviation of the test dataset is ~139. This shows the effective performance of our 1D CNN+RNN model.
 <br><br>
-Finally, I have also picked up some random news headlines from 2017 reddit news, and seen how the index rise/fall evaluates.
+Finally, I have also picked up some random news headlines from 2017 reddit news, and shown the model estimates in the Dow Jones Industrial Index for the next day!!
