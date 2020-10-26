@@ -9,7 +9,8 @@ date: 2020-10-04
 labels:
   - Share Market Finance
   - 1D CNN
-  - Word Embeddings
+  - LSTM
+  - GloVe Word Embeddings
   
 summary: Predicting the rise or fall value for Stock Market (Dean Jones Industrial Index) Index using 8 years of Reddit News Dataset using 1D CNN + RNN architecture.
 ---
