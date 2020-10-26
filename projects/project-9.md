@@ -59,7 +59,11 @@ Now, there could be two ways to model the price index based on the news: we coul
 
 **Word Embeddings:**
 <br>
-Here, I have used pre-trained GloVe word embedding. I did not use stemming/lemmatisation as a text preprocessing step because, for most of the common words, vector representation for a word variations may already be present in the embedding space. <br>For example, vector representation for variations for the word 'learn' such as 'learns', 'learning' etc. is already present. So, it makes more sense to use words in its actual context if we can use it.  
+Here, I have used pre-trained GloVe word embedding. I did not use stemming/lemmatisation as a text preprocessing step because, for most of the common words, vector representation for a word variations may already be present in the embedding space. <br>For example, vector representation for variations for the word 'learn' such as 'learns', 'learning' etc. is already present. So, it makes more sense to use words in its actual context if we can use it. 
+<br>
+<div class="ui large rounded images">
+  <img class="ui image" src="../images/wordvectors.png">
+</div>
 <br><br>
 **Preparing Sequences:**
 <br>
