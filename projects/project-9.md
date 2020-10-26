@@ -14,7 +14,7 @@ labels:
 summary: Predicting the rise or fall value for Stock Market (Dean Jones Industrial Index) Index using 8 years of Reddit News Dataset using 1D CNN + RNN architecture.
 ---
 
-<br><br>
+<br>
 ### Introduction:
 
 Predicting Stock market behavior is a hot topic among the NLP researchers. RNNs, LSTMs, GRUs have proven greatly efficient when dealing with Sequential data. But it turns out that other than RNNs, CNNs too are really effective in extracting features from the text. Although, we can directly feed text to an RNN but there are cases when the sequences are really long which makes it harder to use RNN since they're computationally expensive. <br><br>
