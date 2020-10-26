@@ -15,9 +15,9 @@ summary: Predicting the rise or fall value for Stock Market (Dean Jones Industri
 ---
 
 <br><br>
-####Introduction:
+### Introduction:
 
-Predicting Stock market behavior is a hot topic among the NLP researchers. RNNs, LSTMs, GRUs have proven greatly efficient when dealing with Sequential data. But it turns out that other than RNNs, CNNs too are really effective in extracting features from the text. Although, we can directly feed text to an RNN but there are cases when the sequences are really long which makes it harder to use RNN since they're computationally expensive. 
+Predicting Stock market behavior is a hot topic among the NLP researchers. RNNs, LSTMs, GRUs have proven greatly efficient when dealing with Sequential data. But it turns out that other than RNNs, CNNs too are really effective in extracting features from the text. Although, we can directly feed text to an RNN but there are cases when the sequences are really long which makes it harder to use RNN since they're computationally expensive. <br><br>
 **In this project, we have used 1D CNN-RNN architecture. The original work behind using 1D CNNs with RNNs was proposed in this paper titled "Combination of Convolutional and Recurrent Neural Network for Sentiment Analysis of Short Texts".**
 <br><br>
 As an example, consider there are twenty news headlines that run on each day (which is an understatement in the first place considering that the number of headlines is in thousands), it  would be a really long sequence to process with RNN. Training an RNN model on such large sequences will be a massive computational expense. 
@@ -51,13 +51,14 @@ The value that the model should predict is the opening price of the stock market
 <br><br>
 
 ### Approach:
+
 Now, there could be two ways to model the price index based on the news: we could either predict the absolute opening price of the next day, or we could predict the rise or fall in the opening price of the next day based on the previous day.
 <br><br>
 ***Predicting the rise or fall seems more logical in this case since we're trying to analyse the effect of the news on the price index.***
 <br><br>
 
 **Preparing Sequences:**
-<br><br>
+<br>
 - Change the words present in the headlines into integers,
 - Pad the headlines to bring the news of each day to a fixed length.
 <br><br>
@@ -66,8 +67,8 @@ For each day, there are multiple headlines and each headline has a variable leng
 - For a headline having less than 16 words, append it as it. For a headline that is longer than 16 words, truncate it from the right and append the first 16 words only.
 - Combine all the headlines into a single headline and pad it to a length of 200 words in case it is shorter than 200 words. In case it is longer than 200 words, truncate it from the right side.
 
-**HyperParameters:**
-<br><br>
+**Hyper Parameters:**
+<br>
 The hyperparameters in case of 1D CNN are:
 
 - Filter size (w): It's denoted by 'w' because you can think of the filter as a moving window convolving in one direction over the text.
