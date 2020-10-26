@@ -23,8 +23,10 @@ Predicting Stock market behavior is a hot topic among the NLP researchers. RNNs,
 As an example, consider there are twenty news headlines that run on each day (which is an understatement in the first place considering that the number of headlines is in thousands), it  would be a really long sequence to process with RNN. Training an RNN model on such large sequences will be a massive computational expense. 
 <br>
 However, we can use 1D CNN as they are really faster and significantly less expensive than RNN. In a 1D CNN architecture, the filter can move only in one direction instead of moving in both two directions (x and y axis) as in 2D convolution.
-
 <br>
+Please find the link to the complete code at <a href="https://github.com/akhilsn/Natural_Language_Processing/tree/main/1DCNN_RNN_STOCKNEWS"><i class="large github icon "></i>akhilsn/Stock Prediction with Reddit News</a>
+<br><br>
+
 In this project, I have used a stock market price index data to implement the 1D CNN-RNN architecture. Generally speaking, a stock market index, along with a multitude of other factors, also gets affected by the news headlines that run daily on television and newspapers. Highly negative news impacts the stock market negatively and positive news impacts the stock market positively. Here, I have modeled the relationship between the news and the stock market price of an index.
 <br>
  **My assumption in modelling the stock price in this exercise is that news headlines that run on a particular day affect the opening stock price of an index the very next morning.** The model architecture is basically built with following two steps,
