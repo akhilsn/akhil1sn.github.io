@@ -23,7 +23,7 @@ summary: Gesture Recognition using primarily 3 architectures - Conv3D, CNN+LSTM 
 ### Problem Statement:
 With Home electronic industry making a major shift and moving towards building and manufacturing smart devices, such as a Smart TV/ Laptop, the role of Deep learning based applications can find immense possibilities. One such area could be Gesture Recognition.<br><br>
 
-Say you want to develop a cool feature in the smart-TV that can recognize five different gestures performed by the user which will help users control the TV without using a remote. This project does exactly that. I make 5 Gesture Movements - Thumbs up/down, swipe left/right, stop, and train deep neural network models to learn to identify the gestures.<br><br>
+Take for example, a cool feature in smart-TV that can recognize five different gestures performed by the user which would help them control the TV without using a remote. This project does exactly that. I make 5 Gesture Movements - Thumbs up/down, swipe left/right, stop, and train deep neural network models to learn to identify the gestures.<br><br>
 The gestures are continuously monitored by the webcam mounted on the TV. Each gesture corresponds to a specific command:<br>
 **Thumbs up:**  Increase the volume<br>
 **Thumbs down:** Decrease the volume<br>
