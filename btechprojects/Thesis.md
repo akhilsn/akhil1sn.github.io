@@ -38,6 +38,8 @@ In present thesis project, I have focused on investigating how to efficiently di
 
 - First, the QoS requirements of GBR traffic flows should be satisfied in order to reduce their packet latency (and also the packet dropping ratio). 
 - Second, non-GBR traffic flows can still obtain the necessary amount of downlink resource to prevent them from starvation.<br>
+
+<br>
 To achieve these two objectives, the project compares different resource allocation mechanisms and finally proposes an Optimized Packet Scheduler (OPS) mechanism for effective
 resource allocation in LTE systems. Since, as mentioned before, the conventional resource management schemes do not differentiate GBR and Non-GBR traffic, as a result, some of
 them might end up favouring achievement of high throughput (by favoring GBR traffics), whereas others might emphasize on reducing packet delay. So they may not meet the QoS
