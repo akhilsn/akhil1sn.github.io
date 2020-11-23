@@ -41,6 +41,10 @@ Using these entities, we could query a database and get all relevant flight resu
 ### Dataset:
 I've used the ATIS (Airline Travel Information Systems) dataset to build an IE system. The ATIS dataset consists of English language queries for booking (or requesting information about) flights in the US.
 
+<br><br>
+Please find the complete project @ Source: <a href="https://github.com/akhilsn/Natural_Language_Processing/tree/main/Airline%20Travel%20Information%20System%20Chatbot"><i class="large github icon"></i>akhilsn/Gesture Recognition</a>
+<br><br>
+
 ### Approach:
 Our objective is to **build an information extraction system** which can extract entities relevant for booking flights (such as source and destination cities, time, date, budget constraints etc.) in a **structured format** from a given user-generated query.
 
@@ -57,11 +61,11 @@ Most IE tasks start with the task of **Named Entity Recognition (NER)** - identi
 #### Information Extraction Pipeline
 
 A generic IE pipeline schema, is shown below.
-
-<div>
-  <img src='../images/ie-architecture.png'>
+<br>
+<div class="ui large rounded images">
+  <img class="ui large right floated rounded image" src="../images/ie-architecture.png">
 </div>
-
+<br><br>
 #### Preprocessing 
 
 The usual preprocessing steps are - if the raw input data is in the form of paragraphs, it is converted into sentences using a **sentence segmenter**, then broken down into tokens using **tokenisation**, and finally each token is **POS tagged**.
