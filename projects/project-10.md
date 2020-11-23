@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/airline1.jpg
 title: Airline Information System Chatbot Application
-permalink: projects/gesture
+permalink: projects/info_extraction
 # All dates must be YYYY-MM-DD format!
 date: 2020-10-12
 labels:
