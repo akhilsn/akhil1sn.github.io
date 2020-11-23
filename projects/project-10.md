@@ -42,7 +42,7 @@ Using these entities, we could query a database and get all relevant flight resu
 I've used the ATIS (Airline Travel Information Systems) dataset to build an IE system. The ATIS dataset consists of English language queries for booking (or requesting information about) flights in the US.
 
 <br><br>
-Please find the complete project @ Source: <a href="https://github.com/akhilsn/Natural_Language_Processing/tree/main/Airline%20Travel%20Information%20System%20Chatbot"><i class="large github icon"></i>akhilsn/Gesture Recognition</a>
+Please find the complete project @ Source: <a href="https://github.com/akhilsn/Natural_Language_Processing/tree/main/Airline%20Travel%20Information%20System%20Chatbot"><i class="large github icon"></i>akhilsn/Information Extraction</a>
 <br><br>
 
 ### Approach:
