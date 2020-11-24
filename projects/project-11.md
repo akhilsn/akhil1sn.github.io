@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/airline1.jpg
+image: images/Inventory-Management.jpg
 title: Inventory Management with Reinforcement Learning
-permalink: projects/info_extraction
+permalink: projects/inv_mgt
 # All dates must be YYYY-MM-DD format!
 date: 2020-11-10
 labels:
