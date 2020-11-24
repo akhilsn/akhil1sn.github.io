@@ -29,7 +29,7 @@
   },
   "interests": [
     {
-      "name": "Natural Language Processing",
+      "name": "NLP",
       "keywords": [
         "Topic Modelling,",
         "Sequence Modelling",
@@ -44,7 +44,14 @@
       ]
     },
     {
-      "name": "Wireless Communication and Networks",
+      "name": "Speech Signal Processing",
+      "keywords": [
+        "",
+        "Audio Signal Systems"
+      ]
+    },
+    {
+      "name": "Wireless Communication",
       "keywords": [
         "Physical Layer Design",
         "Resource Allocation"
