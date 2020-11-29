@@ -26,3 +26,7 @@ After the action is decided, the rest is normal Q-learning update. To get the ne
 Q-values are updated in q-dict
  
 I ran it for 15Mn episodes, with each episode of 30 days length (I used Paperspace for simulating the episodes, it takes about 12-13 hours to simulate about 15  million episodes).
+
+<br><br>
+Please find the complete project @ Source: <a href="https://github.com/akhilsn/RL_InventoryManagement"><i class="large github icon"></i>akhilsn/Inventory Management</a>
+<br><br>
