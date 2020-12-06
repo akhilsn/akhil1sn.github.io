@@ -47,7 +47,7 @@ Let me list down some drawbacks that I can think of now,<br>
 ### Possible solution - Attention Models:
 Earlier, we assumed that the spatial dimensions of the CNN image features were averaged together. Now, we describe a method to weight these spatial locations according to their perceived importance - the technique is referred to as an attention mechanism.
 <br>
-<div class="ui large rounded images">
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/attention_weights.png"><br>
 </div>
 <br>
