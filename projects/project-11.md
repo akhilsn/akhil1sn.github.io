@@ -30,3 +30,5 @@ I ran it for 15Mn episodes, with each episode of 30 days length (I used Paperspa
 <br><br>
 Please find the complete project @ Source: <a href="https://github.com/akhilsn/RL_InventoryManagement"><i class="large github icon"></i>akhilsn/Inventory Management</a>
 <br><br>
+
+Will update with block diagrams, and detailed code design soon..
