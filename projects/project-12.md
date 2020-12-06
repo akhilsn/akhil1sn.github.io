@@ -54,8 +54,8 @@ Will organize detailed explaination and add code soon..
 
 <br>
 <div class="ui large rounded images">
-  <img class="ui image" src="../images/attention_weights.png"><br>
-  <img class="ui image" src="../images/attention_mechanism.png"><br>
+  <img class="ui image" src="../images/attention_weights.png"><br><br>
+  <img class="ui image" src="../images/attention_mechanism.png"><br><br>
   <img class="ui image" src="../images/attention_over_time.png">
 </div>
 <br>
