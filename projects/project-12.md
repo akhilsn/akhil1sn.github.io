@@ -53,9 +53,9 @@ With the help of attention mechanism, instead of passing the complete input imag
 Will organize detailed explaination and add code soon..
 
 <br>
-<div class="ui medium rounded images">
-  <img class="ui image" src="../images/attention_weights.png">
+<div class="ui large rounded images">
+  <img class="ui image" src="../images/attention_weights.png"><br>
   <img class="ui image" src="../images/attention_mechanism.png"><br>
-  <img class="ui image" src="../images/attention_over_time.png"><br>
+  <img class="ui image" src="../images/attention_over_time.png">
 </div>
 <br>
