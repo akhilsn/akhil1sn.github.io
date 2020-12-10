@@ -29,6 +29,13 @@
   },
   "interests": [
     {
+      "name": "Speech Signal Processing",
+      "keywords": [
+        "",
+        "Audio Signal Systems"
+      ]
+    },
+    {
       "name": "NLP",
       "keywords": [
         "Topic Modelling,",
@@ -41,13 +48,6 @@
       "keywords": [
         "Data Visualization",
         "Data Extraction"
-      ]
-    },
-    {
-      "name": "Speech Signal Processing",
-      "keywords": [
-        "",
-        "Audio Signal Systems"
       ]
     },
     {
@@ -134,20 +134,20 @@
       "company": "Intel Corporation",
       "position": "Software Developer",
       "website": "https://www.intel.in",
-      "startDate": "2020-06-02",
+      "startDate": "2020-08-03",
       "endDate": "Present",
       "summary": "Development of ML based Web APIs",
       "highlights": [
-        "Responsible for the Memlister Web Api development for listing silicon memories used by several SoC teams in Intel",
-        "The Memlister uses a Deep Learning Neural Network Optimizer that optimizes PPA parameters- Power, Performance, Area parameters for a given user input, which helps user to design silicon memories in a time and cost efficient manner."
+        "Development of ML based Web Api called Memlister for listing optimized values of certain crucial memory parameters required for design of silicon memories in a time and cost efficient manner",
+        "Responsible for development of features that improves user experience."
       ]
     },
     {
       "company": "Intel Corporation",
       "position": "Firmware Developer",
       "website": "https://www.intel.in",
-      "startDate": "2017-08-28",
-      "endDate": "2020-06-02",
+      "startDate": "2017-08-31",
+      "endDate": "2020-07-",
       "summary": "Modem Layer-1 Firmware Development for 4G/5G Intel modems",
       "highlights": [
         "Developed and owned UE Physical layer features for 4g/5g RAT, working primarily on power management, cell search/measurement, resource allocation management for master and slave RATs.",
