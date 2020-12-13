@@ -180,7 +180,7 @@
       "endDate": "2017-01-01",
       "summary": "Active Volunteer for YRC VIT branch",
       "highlights": [
-        "Spreading awareness via Campaigns organized in campus"
+        "Spreading awareness via Campaigns organized in-campus and aroun the city with YRC India wing"
       ]
     },
     {
@@ -189,10 +189,18 @@
       "position": "Core Committee member",
       "startDate": "2015-01-01",
       "endDate": "2017-01-01",
-      "summary": "Org. IEEE PES tech symposiums, projects",
+      "summary": "Org. IEEE PES tech symposiums, eminent people talks, fest events",
       "highlights": [
         "Member, IEEE Student Branch, 2015-2017",
       ]
+    }
+  ],
+  "Research Interests ": [
+    {
+      "summary": "speech science - development of speech recognition systems, speech enhancement with computational linguistics;",
+                 "Radio resource allocation with Multi agent RL techniques to take difficult online decisions depending upon the environment and resource demands by users;",
+                 "MIMO sigal detection and estimation with novel ML techniques;",
+                 "Social Computational Science"
     }
   ],
   "awards": [
