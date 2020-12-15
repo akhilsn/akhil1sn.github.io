@@ -151,6 +151,7 @@
       "summary": "Modem Layer-1 Firmware Development for 4G/5G Intel modems",
       "highlights": [
         "Developed and owned UE Physical layer features for 4g/5g RAT, working primarily on power management, cell search/measurement, resource allocation management for master and slave RATs.",
+        "Owned independently In-Device Coexistence (IDC) and developed 3gpp as well as Intel Proprietary algorithms to manage the coexistence of diffenrent connectivity services (cellular service/wifi/bluetooth).",
         "Responsible for code maintenance and defect debugging for self-owned features.",
         "Performed and evaluated Profiling for Code Optimization and MIPS Reduction.",
         "Planning and discussions with customers, global L1CC teams to evaluate design approach towards feature development.",
