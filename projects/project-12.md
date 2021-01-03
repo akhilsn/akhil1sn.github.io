@@ -65,3 +65,13 @@ With the help of attention mechanism, instead of passing the complete input imag
 
 Please find the complete project @ Source: <a href="https://github.com/akhilsn/DLNeuralNetwork/tree/master/Eye%20for%20Blind"><i class="large github icon"></i>akhilsn/Eye for Blind</a>
 <br><br>
+### Sample outputs from the code:
+
+<br>
+<div style="text-align:center" class="ui large rounded images">
+  <img class="ui image" src="../images/SnowBoarding.png">
+  <img class="ui image" src="../images/DogBark.png"><br><br><br>
+  <img class="ui image" src="../images/Boy_lift.png">
+  <img class="ui image" src="../images/Group_Church.png"><br><br><br>
+</div>
+<br><br>
