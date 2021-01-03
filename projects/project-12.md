@@ -2,13 +2,14 @@
 layout: project
 type: project
 image: images/eyeforblind.png
-title: Eye for the Blind (In Progress)
+title: Eye for the Blind
 permalink: projects/eyeforblind
 # All dates must be YYYY-MM-DD format!
-date: 2020-12-01
+date: 2020-12-15
 labels:
-  - Encoder Decoder
+  - Encoder-Decoder
   - Attention Models
+  - Grid Search
   - BLEU score
   
 summary: Creating a deep learning model which can explain the content of an image in the form of speech and solving challenges of traditional CNN-RNN methods with Attention Models and evaluating performance with BLEU score.
@@ -25,8 +26,7 @@ The project involves two steps:
 - Image to caption generation which is based on the popular Show, Attend and Tell paper.
 - Conversion of the captions generated into an audio output with the help of text to speech library.
 <br><br>
-Will add visual block diagrams soon...
-<br><br>
+
 Working of the encoder - decoder part of the model, 
 <br>Steps:
 - The encoder (CNN) generates the feature vector h0.
@@ -56,11 +56,12 @@ Earlier, we assumed that the spatial dimensions of the CNN image features were a
 With the help of attention mechanism, instead of passing the complete input image to the RNN at every timestamp, we can pass different relevant parts of the image to it. This can solve the limitation we had with the traditional models.
 <br><br>
 
-Will organize detailed explaination and add code soon..
-
 <br>
 <div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/attention_over_time.png"><br><br><br>
   <img class="ui image" src="../images/attention_mechanism.png">
 </div>
-<br>
+<br><br>
+
+Please find the complete project @ Source: <a href="https://github.com/akhilsn/DLNeuralNetwork/tree/master/Eye%20for%20Blind"><i class="large github icon"></i>akhilsn/Eye for Blind</a>
+<br><br>
