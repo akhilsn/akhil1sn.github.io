@@ -4,9 +4,9 @@
     "label": "Software Developer at INTEL",
     "picture": "https://raw.githubusercontent.com/akhilsn/akhilsn.github.io/master/images/Akhil_website.jpg",
     "email": "akhilnshukla@yahoo.in",
-    "phone": "9787113077",
+    "phone": "+91-9787113077",
     "website": "https://github.com/akhilsn",
-    "summary": "Software Developer at INTEL. Completed Bachelors in Electronics and Communications Engg (2013 - 2017), and presently pursuing a Post Graduation Diploma in Machine Learning and Artificial Intelligence from IIIT-B (2019 - 2020).",
+    "summary": "Software Developer at INTEL. Completed Bachelors in Electronics and Communications Engg (2013 - 2017), and presently pursuing a Post Graduation Diploma in Machine Learning and Artificial Intelligence from IIIT-B (2020 - 2020).",
     "location": {
       "address": "",
       "postalCode": "226017",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "name": "NLP",
+      "name": "Language Modelling",
       "keywords": [
         "Topic Modelling,",
         "Sequence Modelling",
@@ -63,8 +63,9 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "Python",
+        "MATLAB",
         "C/ C++",
+        "Python",
         "Machine Learning",
         "NLP",
         "Reinforcement Learning",
@@ -86,11 +87,11 @@
   "education": [
     {
       "institution": "International Institute of Information Technology, Bengaluru",
-      "area": "Machine Learning and Artificial Intelligence (Jan, 2021), cgpa: 3.78/4.0",
+      "area": "Machine Learning and Artificial Intelligence (Jan, 2021), cgpa: 3.74/4.0",
       "studyType": "Post Graduation Diploma",
-      "startDate": "2019-12-01",
-      "endDate": "2021-01-28",
-      "gpa": "3.78",
+      "startDate": "2020-01-06",
+      "endDate": "2020-12-28",
+      "gpa": "3.74",
       "courses": [
         "Statistics Essential",
         "Machine Learning - I",
@@ -104,7 +105,7 @@
     },
     {
       "institution": "Vellore Institute of Technology, Vellore",
-      "area": "Electronics and Communication Engineering (May, 2017), cgpa: 9.07/10.0",
+      "area": "Electronics and Communication Engineering (May, 2017), cgpa: 3.9/4.0",
       "studyType": "B.Tech.",
       "startDate": "2013-06-03",
       "endDate": "2017-05-31",
@@ -132,30 +133,19 @@
   "work": [
     {
       "company": "Intel Corporation",
-      "position": "Software Developer",
-      "website": "https://www.intel.in",
-      "startDate": "2020-08-03",
-      "endDate": "Present",
-      "summary": "Development of ML based Web APIs",
-      "highlights": [
-        "Development of ML based Web Api called Memlister for listing optimized values of certain crucial memory parameters required for design of silicon memories in a time and cost efficient manner",
-        "Responsible for development of features that improves user experience."
-      ]
-    },
-    {
-      "company": "Intel Corporation",
       "position": "Firmware Developer",
       "website": "https://www.intel.in",
       "startDate": "2017-08-31",
-      "endDate": "2020-07-",
-      "summary": "Modem Layer-1 Firmware Development for 4G/5G Intel modems",
+      "endDate": "Present",
+      "summary": "Firmware Development - Modem Signal Processing and Control",
       "highlights": [
-        "Developed and owned UE Physical layer features for 4g/5g RAT, working primarily on power management, cell search/measurement, resource allocation management for master and slave RATs.",
-        "Owned independently In-Device Coexistence (IDC) and developed 3gpp as well as Intel Proprietary algorithms to manage the coexistence of diffenrent connectivity services (cellular service/wifi/bluetooth).",
-        "Responsible for code maintenance and defect debugging for self-owned features.",
-        "Performed and evaluated Profiling for Code Optimization and MIPS Reduction.",
-        "Planning and discussions with customers, global L1CC teams to evaluate design approach towards feature development.",
-        "Additionally, developed projects with Quality Initiatives team to help streamline defect assignment to teams."
+        "Developed and owned UE Physical layer features for 4G/5G RAT, working primarily on power management, cell search/measurement, resource allocation management for master and slave RATs.",
+        "Owned independently the In Device Coexistence (IDC) module to handle cellular communications (LTE-FDD, LTE-TDD, 2G, 3G and TD-SCDMA) simultaneously with connectivity communications (WLAN, BT and GNSS) by supporting coexistence filter switching feature in the RF interface.",
+        "Maintenance of dual sim dynamic RF resource allocation algorithms (e.g. TRX, analog and digital RF chain, DigRF instances and configuration) in L1CC via a DigRF resource manager interface and handling of RF conflicts.",
+        "Responsible for code maintenance and defect debugging for features owned.",
+        "Performed and evaluated Profiling for Code Optimization and MIPS Reduction for the L1CC core to support 5CA use cases in XMM7560.",
+        "Knowledge of 3GPP Technical specification (TS 36.xxx, TS 38.xxx) and system procedures.",
+        "Technical interface experience with customer technical team, sub component teams and field engineers."
       ]
     },
     {
@@ -181,7 +171,7 @@
       "endDate": "2017-01-01",
       "summary": "Active Volunteer for YRC VIT branch",
       "highlights": [
-        "Spreading awareness via Campaigns organized in-campus and aroun the city with YRC India wing"
+        "Spreading awareness via Campaigns organized in-campus and around the city with YRC India wing"
       ]
     },
     {
@@ -199,6 +189,8 @@
   "Research Interests ": [
     {
       "summary": "speech science - development of speech recognition systems, speech enhancement with computational linguistics;",
+                 "Multimedia Information Retrieval systems;",
+                 "Audio Signal Processing;",
                  "Radio resource allocation with Multi agent RL techniques to take difficult online decisions depending upon the environment and resource demands by users;",
                  "MIMO sigal detection and estimation with novel ML techniques;",
                  "Social Computational Science"
