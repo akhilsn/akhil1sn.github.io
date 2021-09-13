@@ -3,16 +3,15 @@
     "name": "Akhil Shukla",
     "label": "Software Developer at INTEL. BTech in ECE (2013-17)",
     "picture": "https://raw.githubusercontent.com/akhilsn/akhilsn.github.io/master/images/me_11.jpg",
-    "email": "akhilnshukla@yahoo.in",
-    "phone": "+91-9787113077",
+    "email": "akhilnshukla [at] yahoo [dot] in",
     "website": "https://github.com/akhilsn",
-    "summary": "Welcome to my project portfolio, I have maintained some of my selected projects here",
+    "summary": "Welcome to my project portfolio, I have maintained some of my selected projects here, new website coming soon!!",
     "location": {
       "address": "",
-      "postalCode": "226017",
-      "city": "Lucknow",
-      "countryCode": "INDIA",
-      "region": "Uttar Pradesh"
+      "postalCode": "30308",
+      "city": "Atlanta",
+      "countryCode": "USA",
+      "region": "Georgia"
     },
     "profiles": [
       {
@@ -69,8 +68,6 @@
         "Machine Learning",
         "NLP",
         "Reinforcement Learning",
-        "REST Framework",
-        "Django",
         "Agile-Scrum"
       ]
     },
@@ -86,8 +83,22 @@
   ],
   "education": [
     {
+      "institution": "Georgia Institute of Technology, Atlanta",
+      "area": "Machine Learning and Artificial Intelligence, cgpa: 4.0/4.0",
+      "studyType": "Masters in Science",
+      "startDate": "2021-08-23",
+      "endDate": "2022-12-31",
+      "gpa": "4.0",
+      "courses": [
+        "Statistical Machine Learning*",
+        "Computational Music Analysis*",
+        "Digital Image Processing*",
+        "Advanced Programming Techniques*",
+      ]
+    },
+    {
       "institution": "International Institute of Information Technology, Bengaluru",
-      "area": "Machine Learning and Artificial Intelligence (Jan, 2021), cgpa: 3.74/4.0",
+      "area": "Machine Learning and Artificial Intelligence cgpa: 3.74/4.0",
       "studyType": "Post Graduation Diploma",
       "startDate": "2020-01-06",
       "endDate": "2020-12-28",
@@ -132,11 +143,37 @@
   ],
   "work": [
     {
+      "company": "Liverpool John Moores University",
+      "position": "Research Intern",
+      "website": "https://www.ljmu.ac.uk/",
+      "startDate": "2021-01-16",
+      "endDate": "2021-05-28",
+      "summary": "Research Intern under Professor Ahmed Kaky",
+      "highlights": [
+        "Worked on Music Emotion Recognition problem with a three-way approach constituting time, frequency and time-frequency domain audio features as inputs to Deep Neural Networks to identify emotions in a given musical clip.",
+        "Curated dataset with Musical compositions using audio processing techniques and tools such as Audacity, SonicVisualizer and extracted various time-series and audio-visual representation of data.",
+        "Performed evaluation of numerous Deep learning models involving CNNs, LSTMs, BiLSTMs and transfer learning models like VGGNet19. The best results achieved make use of combined features in frequency and time domain with accuracy of 84% and visual-representations of audio signal reaching high AUC of 97% on the test data.",
+      ]
+    },
+    {
       "company": "Intel Corporation",
-      "position": "Firmware Developer",
+      "position": "Software Engineer - Client Computing Group",
       "website": "https://www.intel.in",
-      "startDate": "2017-08-31",
-      "endDate": "Present",
+      "startDate": "2020-03-02",
+      "endDate": "2021-01-29",
+      "summary": "Software Engineer - System Validation and Integration Group",
+      "highlights": [
+        "Worked as a domain lead in the Windows System Validation and Integration team for the Storage and Memory sub domains that involves enabling latest technology features in Intel’s Processers (AlderLake).",
+        "Responsible for supervising test execution teams and driving a clear plan for latest technology features enablements such as Optane, Two-Level Memory.",
+        "Worked on Quality Initiatives for System Validation teams using NLP techniques to develop a domain classifier model that reduces manual intervention in assigning defects raised on issues platform to the teams based on past textual data assignments.",
+      ]
+    },
+    {
+      "company": "Intel Corporation",
+      "position": "Firmware Engineer - Inter-Connected Devices Group",
+      "website": "https://www.intel.in",
+      "startDate": "2017-08-28",
+      "endDate": "2020-02-28",
       "summary": "Firmware Development - Modem Signal Processing and Control",
       "highlights": [
         "Developed and owned UE Physical layer features for 4G/5G RAT, working primarily on power management, cell search/measurement, resource allocation management for master and slave RATs.",
