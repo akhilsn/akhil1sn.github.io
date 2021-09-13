@@ -94,91 +94,90 @@ This means that features from time domain that are characterized by loudness, pi
 ### Results:
 #### Amplitude Envelope (approach1)
 <br>
-<div style="text-align:center" class="ui medium rounded images">
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/mse-AE.png">
 </div>
 <br>
-<div>
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/accuracy-AE.png">
 </div>
 <br>
 
 #### Combined Time and Frequency approach
 <br>
-<div style="text-align:center" class="ui medium rounded images">
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/accuracy-app2.png">
 </div>
 <br>
 
 #### Time-Frequency approach
-    
-1. Linear Spectrogram
+- Linear Spectrogram
 <br>
-<div style="text-align:center" class="ui medium rounded images">
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/linear-spectrogram">
 </div>
 <br>
-<div>
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/linear-spectrogram-Acc-mse.png">
 </div>
 <br>
-<div>
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/linear-spectrogram-auc-mse.png">
 </div>
 <br>
-2. CQT
+- CQT
 <br>
-<div style="text-align:center" class="ui medium rounded images">
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/cqt">
 </div>
 <br>
-<div>
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/cqt-acc-loss">
 </div>
 <br>
-<div>
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/cqt-mse-auc.png">
 </div>
 <br>
-3. Log-CQT
+- Log-CQT
 <br>
-<div style="text-align:center" class="ui medium rounded images">
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/log-cqt">
 </div>
 <br>
-<div>
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/log-cqt-acc-loss.png">
 </div>
 <br>
-<div>
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/log-cqt-acc-mse.png">
 </div>
 <br>
-4. Chroma
+- Chroma
 <br>
-<div style="text-align:center" class="ui medium rounded images">
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/chroma-cqt.png">
 </div>
 <br>
-<div>
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/chroma-cqt-acc-loss.png">
 </div>
 <br>
-<div>
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/chroma-cqt-auc-mse.png">
 </div>
 <br>
-5. MFCCs
+- MFCCs
 <br>
-<div style="text-align:center" class="ui medium rounded images">
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/mfcc.png">
 </div>
 <br>
-<div>
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/mfcc-acc-loss.png">
 </div>
 <br>
-<div>
+<div style="text-align:center" class="ui large rounded images">
   <img class="ui image" src="../images/mfcc-auc-mse.png">
 </div>
 <br>
