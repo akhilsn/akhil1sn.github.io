@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: "../images/emotion-spectrogram.png"
+image: images/emotion-spectrogram.png
 title: Music Emotion Recognition using Time, Frequency and Time-Frequency audio feature based inputs with Neural Networks
 permalink: projects/mer
 # All dates must be YYYY-MM-DD format!
@@ -92,55 +92,57 @@ This means that features from time domain that are characterized by loudness, pi
 <br><br>
 
 ### Results:
-1. Amplitude Envelope (approach1)
+1.  Amplitude Envelope (approach1)
 <br>
-<div class="ui medium rounded images">
+<div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/mse-AE.png">
   <img class="ui image" src="../images/accuracy-AE.png">
 </div>
 <br>
-2. Combined Time and Frequency approach
+
+2.  Combined Time and Frequency approach
 <br>
-<div class="ui medium rounded images">
+<div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/accuracy-app2.png">
 </div>
 <br>
-3. Time-Frequency approach
-  1. Linear Spectrogram
+
+3.  Time-Frequency approach
+    - Linear Spectrogram
 <br>
-<div class="ui medium rounded images">
+<div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/linear-spectrogram">
   <img class="ui image" src="../images/linear-spectrogram-Acc-mse.png">
   <img class="ui image" src="../images/linear-spectrogram-auc-mse.png">
 </div>
 <br>
-  2. CQT
+    - CQT
 <br>
-<div class="ui medium rounded images">
+<div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/cqt">
   <img class="ui image" src="../images/cqt-acc-loss">
   <img class="ui image" src="../images/cqt-mse-auc.png">
 </div>
 <br>
-  3. Log-CQT
+    - Log-CQT
 <br>
-<div class="ui medium rounded images">
+<div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/log-cqt">
   <img class="ui image" src="../images/log-cqt-acc-loss.png">
   <img class="ui image" src="../images/log-cqt-acc-mse.png">
 </div>
 <br>
-  4. Chroma
+    - Chroma
 <br>
-<div class="ui medium rounded images">
+<div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/chroma-cqt.png">
   <img class="ui image" src="../images/chroma-cqt-acc-loss.png">
   <img class="ui image" src="../images/chroma-cqt-auc-mse.png">
 </div>
 <br>
-  5. MFCCs
+    - MFCCs
 <br>
-<div class="ui medium rounded images">
+<div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/mfcc.png">
   <img class="ui image" src="../images/mfcc-acc-loss.png">
   <img class="ui image" src="../images/mfcc-auc-mse.png">
