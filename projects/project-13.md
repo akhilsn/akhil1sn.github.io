@@ -96,6 +96,9 @@ This means that features from time domain that are characterized by loudness, pi
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/mse-AE.png">
+</div>
+<br>
+<div>
   <img class="ui image" src="../images/accuracy-AE.png">
 </div>
 <br>
@@ -113,7 +116,13 @@ This means that features from time domain that are characterized by loudness, pi
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/linear-spectrogram">
+</div>
+<br>
+<div>
   <img class="ui image" src="../images/linear-spectrogram-Acc-mse.png">
+</div>
+<br>
+<div>
   <img class="ui image" src="../images/linear-spectrogram-auc-mse.png">
 </div>
 <br>
@@ -121,7 +130,13 @@ This means that features from time domain that are characterized by loudness, pi
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/cqt">
+</div>
+<br>
+<div>
   <img class="ui image" src="../images/cqt-acc-loss">
+</div>
+<br>
+<div>
   <img class="ui image" src="../images/cqt-mse-auc.png">
 </div>
 <br>
@@ -129,7 +144,13 @@ This means that features from time domain that are characterized by loudness, pi
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/log-cqt">
+</div>
+<br>
+<div>
   <img class="ui image" src="../images/log-cqt-acc-loss.png">
+</div>
+<br>
+<div>
   <img class="ui image" src="../images/log-cqt-acc-mse.png">
 </div>
 <br>
@@ -137,7 +158,13 @@ This means that features from time domain that are characterized by loudness, pi
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/chroma-cqt.png">
+</div>
+<br>
+<div>
   <img class="ui image" src="../images/chroma-cqt-acc-loss.png">
+</div>
+<br>
+<div>
   <img class="ui image" src="../images/chroma-cqt-auc-mse.png">
 </div>
 <br>
@@ -145,7 +172,13 @@ This means that features from time domain that are characterized by loudness, pi
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/mfcc.png">
+</div>
+<br>
+<div>
   <img class="ui image" src="../images/mfcc-acc-loss.png">
+</div>
+<br>
+<div>
   <img class="ui image" src="../images/mfcc-auc-mse.png">
 </div>
 <br>
