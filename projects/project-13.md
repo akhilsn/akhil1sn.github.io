@@ -27,10 +27,12 @@ In this project the MER problem has been looked at in the context of time and fr
 <br><br>rather than limiting to just waveform or a spectrogram visual feature, as has been the study in the past.
 <br>
 This means that features from time domain that are characterized by loudness, pitch etc. such as Amplitude Envelope, zero crossing rate, root-mean square energy are studied as time series. Features from frequency domain such as spectral features or temporal features are studied as numerical or time series format again. The time-frequency domain features in visual representation such as Spectrogram, chromagrams, CQT transform, MFCCs are taken as image inputs to pre-trained models.
-- Multiple model experiments are demonstrated along with relevant reasoning.
-- The performance for all the three approaches is demonstrated and compared.
-<br><br>Part of the objective of the present study is also to demonstrate how eliminating any sort of manual effort required on extracting features (using deep learning with image data approach) compares with the approach that constitute manual effort to a certain extent in designing the time or frequency time-series features.
-<br>Overall the main objective of this study is to explore new avenues with potential performance improvements in Neural network-based emotion classification models with time-frequency features such as spectrograms, chromagrams etc., time series features extracted from the waveforms as inputs, experimented on different neural network architectures.
+  - Multiple model experiments are demonstrated along with relevant reasoning.
+  - The performance for all the three approaches is demonstrated and compared.
+<br>
+Part of the objective of the present study is also to demonstrate how eliminating any sort of manual effort required on extracting features (using deep learning with image data approach) compares with the approach that constitute manual effort to a certain extent in designing the time or frequency time-series features.
+<br>
+Overall the main objective of this study is to explore new avenues with potential performance improvements in Neural network-based emotion classification models with time-frequency features such as spectrograms, chromagrams etc., time series features extracted from the waveforms as inputs, experimented on different neural network architectures.
 
 <br><br>
 ### Data Distribution:
@@ -114,7 +116,7 @@ This means that features from time domain that are characterized by loudness, pi
 - Linear Spectrogram
 <br>
 <div style="text-align:center" class="ui large rounded images">
-  <img class="ui image" src="../images/linear-spectrogram">
+  <img class="ui image" src="../images/linear-spectrogram.png">
 </div>
 <br>
 <div style="text-align:center" class="ui large rounded images">
@@ -128,11 +130,11 @@ This means that features from time domain that are characterized by loudness, pi
 - CQT
 <br>
 <div style="text-align:center" class="ui large rounded images">
-  <img class="ui image" src="../images/cqt">
+  <img class="ui image" src="../images/cqt.png">
 </div>
 <br>
 <div style="text-align:center" class="ui large rounded images">
-  <img class="ui image" src="../images/cqt-acc-loss">
+  <img class="ui image" src="../images/cqt-acc-loss.png">
 </div>
 <br>
 <div style="text-align:center" class="ui large rounded images">
@@ -142,7 +144,7 @@ This means that features from time domain that are characterized by loudness, pi
 - Log-CQT
 <br>
 <div style="text-align:center" class="ui large rounded images">
-  <img class="ui image" src="../images/log-cqt">
+  <img class="ui image" src="../images/log-cqt.png">
 </div>
 <br>
 <div style="text-align:center" class="ui large rounded images">
