@@ -92,7 +92,7 @@ This means that features from time domain that are characterized by loudness, pi
 <br><br>
 
 ### Results:
-1.  Amplitude Envelope (approach1)
+#### Amplitude Envelope (approach1)
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/mse-AE.png">
@@ -100,15 +100,16 @@ This means that features from time domain that are characterized by loudness, pi
 </div>
 <br>
 
-2.  Combined Time and Frequency approach
+#### Combined Time and Frequency approach
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/accuracy-app2.png">
 </div>
 <br>
 
-3.  Time-Frequency approach
-    - Linear Spectrogram
+#### Time-Frequency approach
+    
+1. Linear Spectrogram
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/linear-spectrogram">
@@ -116,7 +117,7 @@ This means that features from time domain that are characterized by loudness, pi
   <img class="ui image" src="../images/linear-spectrogram-auc-mse.png">
 </div>
 <br>
-    - CQT
+2. CQT
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/cqt">
@@ -124,7 +125,7 @@ This means that features from time domain that are characterized by loudness, pi
   <img class="ui image" src="../images/cqt-mse-auc.png">
 </div>
 <br>
-    - Log-CQT
+3. Log-CQT
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/log-cqt">
@@ -132,7 +133,7 @@ This means that features from time domain that are characterized by loudness, pi
   <img class="ui image" src="../images/log-cqt-acc-mse.png">
 </div>
 <br>
-    - Chroma
+4. Chroma
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/chroma-cqt.png">
@@ -140,7 +141,7 @@ This means that features from time domain that are characterized by loudness, pi
   <img class="ui image" src="../images/chroma-cqt-auc-mse.png">
 </div>
 <br>
-    - MFCCs
+5. MFCCs
 <br>
 <div style="text-align:center" class="ui medium rounded images">
   <img class="ui image" src="../images/mfcc.png">
